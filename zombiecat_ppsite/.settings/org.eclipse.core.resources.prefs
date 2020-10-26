@@ -1,4 +1,5 @@
 eclipse.preferences.version=1
 encoding//src/main/java/com/zombiecat/ppsite/Logger/LoggerAspect.java=UTF-8
 encoding//src/main/java/com/zombiecat/ppsite/Logger/LoggerInterceptor.java=UTF-8
+encoding//src/main/webapp/WEB-INF/views/about.jsp=UTF-8
 encoding//src/main/webapp/errors.jsp=UTF-8

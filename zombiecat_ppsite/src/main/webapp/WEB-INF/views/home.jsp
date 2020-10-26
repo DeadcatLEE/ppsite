@@ -26,29 +26,45 @@
 <!-- Custom CSS -->
 <link href="resources/bootstrap/css/stylish-portfolio.min.css" rel="stylesheet">
 
+<!-- Menu Bar -->
+<link href="resources/bootstrap/css/styles.css" rel="stylesheet">
+
 </head>
 
 <body id="page-top">
-
-	<!-- Navigation -->
+	<!-- Navigation-->
+	<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+		<div class="container">
+			<a class="navbar-brand js-scroll-trigger" href="#page-top">ZombieCat</a>
+			<button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				Menu
+				<i class="fas fa-bars"></i>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">ABOUT</a></li>					
+					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PORTFOLIO</a></li>
+					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#game">GAME</a></li>
+					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">CONTACT</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+        
+	<!-- Navigation2 -->
+	<!-- 
 	<a class="menu-toggle rounded" href="#"> <i class="fas fa-bars"></i>
 	</a>
 	<nav id="sidebar-wrapper">
 		<ul class="sidebar-nav">
 			<li class="sidebar-brand">
-				<!-- <a class="js-scroll-trigger" href="#page-top">MENU</a> -->
-				<a class="js-scroll-trigger" href="/">MENU</a>
+				<a class="js-scroll-trigger" href="#page-top">MENU</a>
 			</li>
 			<li class="sidebar-nav-item">
 				<a class="js-scroll-trigger" href="#page-top">MAIN</a>
 			</li>
 			<li class="sidebar-nav-item">
 				<a class="js-scroll-trigger" href="#about">ABOUT</a>
-				<!-- Privacy 개인 정보-->
-				<!-- Experience 경험/이력 -->
-				<!-- Education 교육 -->
-				<!-- Skills 기술 -->
-				<!-- Interrests 흥미 요소-->
 			</li>
 			<li class="sidebar-nav-item">
 				<a class="js-scroll-trigger" href="#portfolio">PORTFOLIO</a>
@@ -61,7 +77,8 @@
 			</li>
 		</ul>
 	</nav>
-
+ 	-->
+ 	
 	<!-- Header -->
 	<header class="masthead d-flex">
 		<div class="container text-center my-auto">
@@ -69,25 +86,15 @@
 			<h3 class="mb-5">
 				<em>New Web Developer, Java Back-End Developer</em>
 			</h3>
-			<a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">저요?</a>
+			<a class="btn btn-primary btn-xl js-scroll-trigger btn-wd" href="#about">저요?</a>
 		</div>
 		<div class="overlay"></div>
 	</header>
 
+	<!-- 윗 부분에 빈칸 좀 만들자 -->
 	<!-- About -->
 	<section class="content-section bg-light" id="about">
-		<div class="container text-center">
-			<div class="row">
-				<div class="col-lg-10 mx-auto">
-					<h2>Stylish Portfolio is the perfect theme for your next project!</h2>
-					<p class="lead mb-5">
-						This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at 
-						<a href="https://unsplash.com/">Unsplash</a>!
-					</p>
-					<a class="btn btn-dark btn-xl js-scroll-trigger" href="#services">What We Offer</a>
-				</div>
-			</div>
-		</div>
+		<%@ include file="/WEB-INF/views/about.jsp" %>
 	</section>
 
 	<!-- Services -->
@@ -245,6 +252,9 @@
 	<!-- Custom scripts for this template -->
 	<script src="resources/bootstrap/js/stylish-portfolio.min.js"></script>
 
+	<!-- Menu Bar -->
+	<script src="resources/bootstrap/js/scripts.js"></script>
+	
 </body>
 
 </html>
