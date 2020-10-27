@@ -28,8 +28,6 @@ public class MainController {
 	public ModelAndView home(Locale locale, CommandMap commandMap) throws Exception {
 		ModelAndView mv = new ModelAndView("home");
 		
-		logger.info("Welcome home! The client locale is {}.", locale);
-		
 		try {
 			List<Map<String, String>> mainMapper = mainService.selectList(commandMap.getMap());
 			
@@ -44,7 +42,6 @@ public class MainController {
 			System.out.println("Main Map Value Empty!");
 			e.printStackTrace();
 		}
-		
 		return mv;
 	}
 	

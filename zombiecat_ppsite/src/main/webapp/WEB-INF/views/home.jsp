@@ -1,3 +1,4 @@
+<%@page import="com.fasterxml.jackson.annotation.JsonInclude.Include"%>
 <%@ page contentType="text/html;charset=utf-8" pageEncoding="utf-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
@@ -7,6 +8,10 @@
 <html lang="ko">
 
 <head>
+
+<style>
+
+</style>
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -28,7 +33,7 @@
 
 <!-- Menu Bar -->
 <link href="resources/bootstrap/css/styles.css" rel="stylesheet">
-
+ 
 </head>
 
 <body id="page-top">
@@ -91,7 +96,10 @@
 		<div class="overlay"></div>
 	</header>
 
-	<!-- 윗 부분에 빈칸 좀 만들자 -->
+	<section class="content-section bg-light">
+		<!-- 빈 칸 -->
+	</section>
+	
 	<!-- About -->
 	<section class="content-section bg-light" id="about">
 		<%@ include file="/WEB-INF/views/about.jsp" %>
@@ -255,6 +263,10 @@
 	<!-- Menu Bar -->
 	<script src="resources/bootstrap/js/scripts.js"></script>
 	
+	<!-- Modal -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
