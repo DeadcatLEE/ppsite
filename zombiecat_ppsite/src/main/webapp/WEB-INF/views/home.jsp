@@ -23,17 +23,23 @@
 <!-- Bootstrap Core CSS -->
 <link href="resources/bootstrap/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-<!-- Custom Fonts -->
+<!-- Portfolio Fonts -->
 <link href="resources/bootstrap/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 <link href="resources/bootstrap/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
-<!-- Custom CSS -->
+<!-- Portfolio CSS -->
 <link href="resources/bootstrap/css/stylish-portfolio.min.css" rel="stylesheet">
 
 <!-- Menu Bar -->
 <link href="resources/bootstrap/css/styles.css" rel="stylesheet">
  
+<!-- Custom CSS -->
+<link href="resources/bootstrap/css/custom-style.css" rel="stylesheet">
+
+<!-- Magnific Popup core CSS file -->
+<link href="resources/bootstrap/css/magnific-popup.css" rel="stylesheet">
+
 </head>
 
 <body id="page-top">
@@ -96,7 +102,7 @@
 		<div class="overlay"></div>
 	</header>
 
-	<section class="content-section bg-light">
+	<section class="content-section bg-light" style="padding: 40px 0px 40px 0px;">
 		<!-- 빈 칸 -->
 	</section>
 	
@@ -257,7 +263,7 @@
 	<!-- Plugin JavaScript -->
 	<script src="resources/bootstrap/vendor/jquery-easing/jquery.easing.min.js"></script>
 
-	<!-- Custom scripts for this template -->
+	<!-- Portfolio scripts for this template -->
 	<script src="resources/bootstrap/js/stylish-portfolio.min.js"></script>
 
 	<!-- Menu Bar -->
@@ -266,7 +272,12 @@
 	<!-- Modal -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<!-- Custom event -->
+	<script src="resources/bootstrap/js/custom-script.js"></script>
 
+	<!-- Magnific Popup core JS file -->
+	<script src="resources/bootstrap/js/jquery.magnific-popup.js"></script>
 </body>
 
 </html>
