@@ -1,8 +1,9 @@
 <%@page import="com.fasterxml.jackson.annotation.JsonInclude.Include"%>
-<%@ page contentType="text/html;charset=utf-8" pageEncoding="utf-8" %>
+<%@ page language="java" contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+
 <!DOCTYPE html>
 
 <html lang="ko">
@@ -13,7 +14,7 @@
 
 </style>
 
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="">
 <meta name="author" content="">
@@ -55,7 +56,6 @@
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">ABOUT</a></li>					
 					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PORTFOLIO</a></li>
-					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#game">GAME</a></li>
 					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">CONTACT</a></li>
 				</ul>
 			</div>
@@ -95,7 +95,7 @@
 		<div class="container text-center my-auto">
 			<h1 class="mb-1">ZombieCat Portfolio</h1>
 			<h3 class="mb-5">
-				<em>New Web Developer, Java Back-End Developer</em>
+				<em>New Java Back-End Developer</em>
 			</h3>
 			<a class="btn btn-primary btn-xl js-scroll-trigger btn-wd" href="#about">저요?</a>
 		</div>
@@ -274,7 +274,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	
 	<!-- Custom event -->
-	<script src="resources/bootstrap/js/custom-script.js"></script>
+	<script type="text/javascript" src="resources/bootstrap/js/custom-script.js" charset="utf-8"></script>
 
 	<!-- Magnific Popup core JS file -->
 	<script src="resources/bootstrap/js/jquery.magnific-popup.js"></script>
