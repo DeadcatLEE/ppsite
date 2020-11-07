@@ -231,7 +231,7 @@
 		//interest in text
 		function int_in_text() {
 			var develop = "- 최근에 집중하고 있는 것은 JavaScript, Html, CSS로, Java와 함께 능숙하게 사용할 수 있도록 인프런과 노마드코더 등의 인터넷 강의를 통해 공부하고 있습니다. <br>- 또한 앱 개발에 대한 필요성을 느끼고 있어 코틀린에 관심을 가지고 있습니다. <br>- 결과적으로 웹과 앱 모두 개발할 수 있는 개발자를 목표로 하고 있습니다.";
-			var hobby = "- 예전부터 웹툰, 웹소설 등 비출판 작품에 관심을 가지고 있습니다. <br>- 간단한 2D RPG 게임을 만들어 보고 싶다고 생각하고 있습니다. <br>- 건강과 취미를 위해 웨이트 트레이닝이나 격투기 같은 것을 배우고 싶다고 생각하고 있습니다.";
+			var hobby = "- 예전부터 웹툰, 웹소설 등 비출판 작품에 관심을 가지고 있습니다. <br>- 간단한 2D RPG 게임을 만들어 보고 싶다고 생각하고 있습니다. <br>- 건강을 위해 웨이트 트레이닝이나 격투기 같은 것을 배우고 싶다고 생각하고 있습니다.";
 
 			document.getElementById('int-develop').innerHTML = develop;
 			document.getElementById('int-hobby').innerHTML = hobby;
