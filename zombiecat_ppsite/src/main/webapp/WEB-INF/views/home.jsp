@@ -40,6 +40,7 @@
 	font-weight: normal;
 }
 
+
 /* div 관련 */
 .abt-zb-imgbox {
 	width: 50%;
@@ -94,7 +95,6 @@
 	width: 49%;
 	text-align: right;
 }
-
 
 .exp-text-padd {
 	width: 100%;
@@ -199,6 +199,41 @@
 	color: white;
 	box-shadow: 1px 1px 1px grey;
 }
+
+.port-side {
+	display: inline-flex;
+	width: 10%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.port-body {
+	display: flex;
+	width: 100%;
+	height: 728.5px;
+}
+
+.port-center {
+	display: inline-flex;
+	width: 80%;
+	height: 100%;
+	flex-direction: column;
+}
+
+.port-box-text {
+	display: inline-flex;
+	width: 100%;
+	height: 40%;
+	flex-direction: row;
+}
+
+.half {
+	width: 50%;
+	height: 100%;
+	padding: 20px 30px;
+}
+
 
 /* image 추가 */
 .profile-img {
@@ -345,6 +380,35 @@
 	color: darkseagreen;
 }
 
+.port-side-img {
+	max-width: 100px;
+	max-height: 100px;
+	cursor: pointer;
+}
+
+.port-box-img {
+	width: 100%;
+	height: 60%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.port-main-img {
+	height: 100%;
+	width: auto;
+	cursor: pointer;
+}
+
+.pdf-icon {
+	width: 27px;
+	height: 27px;
+	margin-left: 10px;
+	cursor: pointer;
+	"
+}
+
+
 /* font style */
 .hd-font {
 	font-family: BMDOHYEON;
@@ -420,6 +484,21 @@
 	font-family: 'BMHANNAAir';
 	font-size: 1.7rem;
 	font-weight: bold;
+}
+
+.port-text-main {
+	font-family: BMDOHYEON;
+	font-size: 1.5rem;
+}
+
+.port-text-sub {
+	font-family: BMHANNAPro;
+	font-size: 1.3rem;
+}
+
+.port-text {
+	font-family: BMHANNAAir;
+	font-size: 1.3rem;
 }
 
 /* 간격 설정 */
@@ -531,7 +610,6 @@
 		width: 12%;
 		text-align: right;
 		font-size: 0.9rem;
-		padding-top: 3px;
 	}
 	.skill-etc {
 		width: 47%;
@@ -552,8 +630,8 @@
 	}
 	.int-text-padd {
 		width: 100%;
-	    height: 500px;
-	    padding: 10px 30px 50px 40px;
+		height: 500px;
+		padding: 10px 30px 50px 40px;
 	}
 	.navy-left {
 		width: 20%;
