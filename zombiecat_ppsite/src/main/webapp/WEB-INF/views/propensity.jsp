@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"%>
 
 <div class="container">
-	<div class="content-section-heading">
+	<div class="content-section-heading text-center">
 		<h3 class="text-secondary mb-0 text-sec-line">PROPENSITY</h3>
 		<h2 class="mb-5">이런 느낌입니다.</h2>
 	</div>

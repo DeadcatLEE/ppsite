@@ -40,7 +40,6 @@
 	font-weight: normal;
 }
 
-
 /* div 관련 */
 .abt-zb-imgbox {
 	width: 50%;
@@ -234,6 +233,10 @@
 	padding: 20px 30px;
 }
 
+.half .empty-box {
+	width: 100%;
+	height: 90px;
+}
 
 /* image 추가 */
 .profile-img {
@@ -407,7 +410,6 @@
 	cursor: pointer;
 	"
 }
-
 
 /* font style */
 .hd-font {
@@ -633,6 +635,23 @@
 		height: 500px;
 		padding: 10px 30px 50px 40px;
 	}
+	.port-box-img {
+	    height: 300px;
+	    padding-bottom: 30px;
+	    overflow: hidden;
+	}
+	.port-side {
+	    width: 10%;
+	    height: 600px;
+	}
+	.port-box-text {
+		height: 300px;
+		flex-direction: column;
+	}
+	.half {
+		width: 100%;
+		padding: 0px;
+	}
 	.navy-left {
 		width: 20%;
 	}
@@ -661,6 +680,13 @@
 		height: 1.5rem;
 		line-height: 1.5rem;
 		margin-right: 10px;
+	}
+	.port-main-img {
+	    margin-left: -25%;
+	}
+	.port-side-img {
+	    max-width: 50px;
+	    max-height: 50px;
 	}
 
 	/* 폰트 관련 */
@@ -697,6 +723,14 @@
 	.skill-div-font {
 		font-size: 1.3rem;
 	}
+	.port-text-main {
+		font-size: 1.3rem; } .port-text-sub {
+		font-size: 1.1rem;
+		font-size: 1.1rem;
+	}
+	.port-text {
+		font-size: 1.1rem;
+	}
 
 	/* 간격 관련 */
 	.wid80 {
@@ -725,6 +759,10 @@
 	}
 	.content-section-heading {
 		padding-bottom: 10px;
+	}
+	.half .empty-box {
+	    width: 100%;
+	    height: 20px;
 	}
 	/* magnific-popup */
 	.mfp-image-holder .mfp-content {
@@ -773,7 +811,8 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">ABOUT</a></li>					
+					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">ABOUT</a></li>
+					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#propensity">PROPENSITY</a></li>					
 					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PORTFOLIO</a></li>
 					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">CONTACT</a></li>
 				</ul>
@@ -835,7 +874,7 @@
 	<!-- Services -->
 	<section class="content-section bg-primary" style="padding: 40px 0px;"></section>
 	
-	<section class="content-section bg-primary text-white text-center" id="texttt">
+	<section class="content-section bg-primary text-white text-center" id="propensity">
 		<%@ include file="/WEB-INF/views/propensity.jsp" %>
 	</section>
 
@@ -850,15 +889,16 @@
 
 	<section class="content-section" style="padding: 20px 0px;"></section>
 	
-	<!-- Map -->
-	<div id="contact" class="map">
-		<iframe src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A&amp;output=embed"></iframe>
-		<br /> 
-		<small> 
-			<a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;aq=0&amp;oq=twitter&amp;sll=28.659344,-81.187888&amp;sspn=0.128789,0.264187&amp;ie=UTF8&amp;hq=Twitter,+Inc.,+Market+Street,+San+Francisco,+CA&amp;t=m&amp;z=15&amp;iwloc=A"></a>
-		</small>
-	</div>
+	<!-- Contact -->
+	<section class="content-section bg-primary" style="padding: 40px 0px;"></section>
+		
+	<section class="content-section bg-primary margin-bt-10" id="contact">
+		<%@ include file="/WEB-INF/views/contact.jsp" %>
+	</section>
 
+	<section class="content-section bg-primary" style="padding: 20px 0px;"></section>
+	
+	
 	<!-- Footer -->
 	<footer class="footer text-center">
 		<div class="container">
@@ -910,6 +950,9 @@
 
 	<!-- Magnific Popup core JS file -->
 	<script src="resources/bootstrap/js/jquery.magnific-popup.js"></script>
+	
+	<!-- emailJS -->
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 </body>
 
 </html>
