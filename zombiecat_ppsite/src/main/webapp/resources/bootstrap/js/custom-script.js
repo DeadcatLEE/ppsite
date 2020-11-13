@@ -17,7 +17,21 @@
 			//emailJS 설정
 			emailjs.init('user_XHIEAkMwvTKGixM0CGtdz');
 
-			$('input[name=submit]').click(function(){       	 
+			$('input[name=submit]').click(function(){
+				if($('input[name=name]').val() == null || $('input[name=name]').val() == '') {
+					alert('이름을 입력해주세요.');
+					$('input[name=name]').focus();
+					return false;
+				} else if($('input[name=email]').val() == null || $('input[name=email]').val() == '') {
+					alert('메일 주소를 입력해주세요.');
+					$('input[name=email]').focus();
+					return false;
+				} else if($('textarea[name=message]').val() == null || $('textarea[name=message]').val() == '') {
+					alert('내용을 입력해주세요.');
+					$('textarea[name=message]').focus();
+					return false;
+				}
+				
 				var templateParams = {	
 					name : $('input[name=name]').val(),
 					phone : $('input[name=phone]').val(), 
@@ -251,8 +265,8 @@
 
 		//interest in text
 		function int_in_text() {
-			var develop = "- 최근에 집중하고 있는 것은 JavaScript, Html, CSS로, Java와 함께 능숙하게 사용할 수 있도록 인프런과 노마드코더 등의 인터넷 강의를 통해 공부하고 있습니다. <br>- 또한 앱 개발에 대한 필요성을 느끼고 있어 코틀린에 관심을 가지고 있습니다. <br>- 결과적으로 웹과 앱 모두 개발할 수 있는 개발자를 목표로 하고 있습니다.";
-			var hobby = "- 예전부터 웹툰, 웹소설 등 비출판 작품에 관심을 가지고 있습니다. <br>- 간단한 2D RPG 게임을 만들어 보고 싶다고 생각하고 있습니다. <br>- 건강을 위해 웨이트 트레이닝이나 격투기 같은 것을 배우고 싶다고 생각하고 있습니다.";
+			var develop = "- 최근에 집중하고 있는 것은 JavaScript, Html, CSS로, Java와 함께 능숙하게 사용할 수 있도록 인터넷 강의 등을 통해 공부하고 있습니다. <br>- 앱 개발에 대한 필요성을 느끼고 있어 코틀린도 배워볼까, 고민하고 있습니다. <br>- 결과적으로 웹과 앱 모두 개발할 수 있는 개발자를 목표로 하고 있습니다.";
+			var hobby = "- 예전부터 웹툰, 웹소설 등 비문학/비출판 작품에 관심이 있습니다. <br>- 언젠가 간단한 2D RPG 게임을 만들어 보고 싶습니다. <br>- 건강을 위해 웨이트 트레이닝이나 격투기 같은 것을 다시 해볼까 고민 중입니다.";
 
 			document.getElementById('int-develop').innerHTML = develop;
 			document.getElementById('int-hobby').innerHTML = hobby;
@@ -286,7 +300,46 @@
 			}
 		}
 		
+		//이메일
+		function fn_input_email(obj) {
+			var text = obj.value.replace(/[^a-z0-9@_.-]/g, "");
+			obj.value = text;
+		}
 		
+		//연락처 
+		function fn_input_phone(obj) {
+
+			var number = obj.value.replace(/[^0-9]/g, "");
+			var phone = "";
+
+			if(number.length < 4) {
+				return number;
+			} else if(number.length < 7) {
+				phone += number.substr(0, 3);
+				phone += "-";
+				phone += number.substr(3);
+			} else if(number.length < 10) {
+				phone += number.substr(0, 2);
+				phone += "-";
+				phone += number.substr(2, 3);
+				phone += "-";
+				phone += number.substr(5);
+			} else if(number.length < 11) {
+				phone += number.substr(0, 3);
+				phone += "-";
+				phone += number.substr(3, 3);
+				phone += "-";
+				phone += number.substr(6);
+			} else {
+				phone += number.substr(0, 3);
+				phone += "-";
+				phone += number.substr(3, 4);
+				phone += "-";
+				phone += number.substr(7);
+			}
+			obj.value = phone;
+		}
+
 		/*
 		//modal close 시 이벤트
 		$('#experience').on('hidden.bs.modal', function() {

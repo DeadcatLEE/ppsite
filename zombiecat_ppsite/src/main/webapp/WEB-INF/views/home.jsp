@@ -238,6 +238,51 @@
 	height: 90px;
 }
 
+.cont-body {
+	width: 100%;
+	display: flex;
+	height: auto;
+	padding: 10px 73px 20px 73px;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.cont-small {
+	width: 500px;
+	height: 40px;
+	margin-bottom: 10px;
+	font-family: 'BMHANNAAir';
+	font-size: 1.1rem;
+	border-radius: 10px;
+	border: 3px solid dimgray;
+}
+
+.cont-textarea {
+	width: 500px;
+	height: 200px;
+	margin-bottom: 10px;
+	font-family: 'BMHANNAAir';
+	font-size: 1.1rem;
+	border-radius: 10px;
+	border: 3px solid dimgray;
+	resize: none;
+}
+
+.cont-btn {
+	width: 150px;
+	height: 40px;
+	border-radius: 10px;
+	margin: 10px;
+	border: 3px solid dimgray;
+	background-color: steelblue;
+	font-family: 'BMDOHYEON';
+	color: #fff;
+	letter-spacing: 1px;
+	box-shadow: 3px 3px 3px grey;
+}
+
 /* image 추가 */
 .profile-img {
 	display: block;
@@ -350,7 +395,7 @@
 	height: 100%;
 }
 
-.progress {
+.skill-progress .progress {
 	height: 1.5rem;
 	border-radius: 1rem;
 }
@@ -568,6 +613,9 @@
 		text-align: left;
 		padding-left: 50px;
 	}
+	.skill-progress .progress {
+		height: 1.1rem;
+	}
 	.exp-menu-box {
 		width: 100%;
 		height: auto;
@@ -636,13 +684,13 @@
 		padding: 10px 30px 50px 40px;
 	}
 	.port-box-img {
-	    height: 300px;
-	    padding-bottom: 30px;
-	    overflow: hidden;
+		height: 300px;
+		padding-bottom: 30px;
+		overflow: hidden;
 	}
 	.port-side {
-	    width: 10%;
-	    height: 600px;
+		width: 10%;
+		height: 600px;
 	}
 	.port-box-text {
 		height: 300px;
@@ -682,11 +730,22 @@
 		margin-right: 10px;
 	}
 	.port-main-img {
-	    margin-left: -25%;
+		margin-left: -25%;
 	}
 	.port-side-img {
-	    max-width: 50px;
-	    max-height: 50px;
+		max-width: 50px;
+		max-height: 50px;
+	}
+	.cont-body {
+		padding: 10px 40px 10px 40px;
+	}
+	
+	.cont-small {
+		width: 350px;
+	}
+	
+	.cont-textarea {
+		width: 350px;
 	}
 
 	/* 폰트 관련 */
@@ -724,7 +783,9 @@
 		font-size: 1.3rem;
 	}
 	.port-text-main {
-		font-size: 1.3rem; } .port-text-sub {
+		font-size: 1.3rem;
+	}
+	.port-text-sub {
 		font-size: 1.1rem;
 		font-size: 1.1rem;
 	}
@@ -761,12 +822,13 @@
 		padding-bottom: 10px;
 	}
 	.half .empty-box {
-	    width: 100%;
-	    height: 20px;
+		width: 100%;
+		height: 20px;
 	}
+	
 	/* magnific-popup */
 	.mfp-image-holder .mfp-content {
-		max-width: 80%;
+	    max-width: 80% !important;
 	}
 }
 </style>
@@ -852,11 +914,12 @@
 	<header class="masthead d-flex">
 		<div class="container text-center my-auto">
 			<div class="mast-min-height"></div>
-			<h1 class="mb-1">Who is ZombieCat?</h1>
-			<h3 class="mb-5">
+			<div class="mast-min-height"></div>
+			<h1 class="mb-1" style="text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;">Who is ZombieCat?</h1>
+			<h3 class="mb-5" style="text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;">
 				<em>New Java Back-End Developer</em>
 			</h3>
-			<a class="btn btn-primary btn-xl js-scroll-trigger btn-wd" href="#about">저요?</a>
+			<a class="btn btn-primary btn-xl js-scroll-trigger btn-wd" href="#about">About me</a>
 			<div class="mast-min-height"></div>
 		</div>
 		<div class="overlay"></div>
@@ -903,6 +966,7 @@
 	<footer class="footer text-center">
 		<div class="container">
 			<ul class="list-inline mb-5">
+				<!-- 
 				<li class="list-inline-item">
 					<a class="social-link rounded-circle text-white mr-3" href="#!"> 
 						<i class="icon-social-facebook"></i>
@@ -918,8 +982,9 @@
 						<i class="icon-social-github"></i>
 					</a>
 				</li>
+				 -->
 			</ul>
-			<p class="text-muted small mb-0">Copyright &copy; Your Website 2020</p>
+			<p class="text-muted small mb-0">Copyright 2020. ZombieCat v1.0.0</p>
 		</div>
 	</footer>
 

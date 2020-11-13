@@ -3,7 +3,7 @@
 <div class="container">
 	<div class="content-section-heading text-center">
 		<h3 class="text-secondary mb-0 text-sec-line">PORTFOLIO</h3>
-		<h2 class="mb-5">진행했던 프로젝트</h2>
+		<h2 class="mb-5">작업 결과물입니다.</h2>
 	</div>
 	<div class="row no-gutters">
 		<div class="port-body">

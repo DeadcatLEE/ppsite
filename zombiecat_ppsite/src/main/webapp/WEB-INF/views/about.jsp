@@ -3,51 +3,51 @@
 <div id="about_main" class="container">
 	<div class="content-section-heading text-center">
 		<h3 class="text-secondary mb-0 text-sec-line">ABOUT</h3>
-		<h2 class="mb-5">궁금하지 않으세요?</h2>
+		<h2 class="mb-5">알려드릴게요!</h2>
 	</div>
 	<div class="row no-gutters">
 		<div class="col-lg-6">
 			<a class="portfolio-item" onclick="fn_about('ZombieCat');">
 				<div class="caption">
 					<div class="caption-content">
-						<div class="h2">ZombieCat</div>
-						<p class="mb-0">ZombieCat이 궁금하지 않으세요?</p><!-- Privacy 개인 정보 -->
+						<div class="h2" style="text-shadow: 4px 4px 3px black; font-family: 'BMDOHYEON';">ZombieCat</div>
+						<p class="mb-0" style="font-size: 1.3rem; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; font-family: 'BMHANNAPro';">안녕하세요! ZombieCat입니다.</p><!-- Privacy 개인 정보 -->
 					</div>
 				</div> 
-				<img class="img-fluid" src="resources/bootstrap/img/portfolio-1.jpg" alt="">
+				<img class="img-fluid" src="resources/images/background/spring_2.png" alt="">
 			</a>
 		</div>
 		<div class="col-lg-6">
 			<a class="portfolio-item" onclick="fn_about('Experience');">
 				<div class="caption">
 					<div class="caption-content">
-						<div class="h2">Experience</div>
-						<p class="mb-0">그동안 어떻게 살아왔을까요?</p><!-- Experience 경험/이력 -->
+						<div class="h2" style="text-shadow: 4px 4px 3px black; font-family: 'BMDOHYEON';">Experience</div>
+						<p class="mb-0" style="font-size: 1.3rem; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; font-family: 'BMHANNAPro';">이렇게 지냈습니다.</p><!-- Experience 경험/이력 -->
 					</div>
 				</div> 
-				<img class="img-fluid" src="resources/bootstrap/img/portfolio-2.jpg" alt="">
+				<img class="img-fluid" src="resources/images/background/fall_2.png" alt="">
 			</a>
 		</div>
 		<div class="col-lg-6">
 			<a class="portfolio-item" onclick="fn_about('Programming');">
 				<div class="caption">
 					<div class="caption-content">
-						<div class="h2">Programming</div>
-						<p class="mb-0">개발자가 되기 위한 노력.</p><!-- Education 교육 / Skills 기술 -->
+						<div class="h2" style="text-shadow: 4px 4px 3px black; font-family: 'BMDOHYEON';">Programming</div>
+						<p class="mb-0" style="font-size: 1.3rem; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; font-family: 'BMHANNAPro';">프로그래밍에 대한 기반입니다.</p><!-- Education 교육 / Skills 기술 -->
 					</div>
 				</div> 
-				<img class="img-fluid" src="resources/bootstrap/img/portfolio-3.jpg" alt="">
+				<img class="img-fluid" src="resources/images/background/summer_1.png" alt="">
 			</a>
 		</div>
 		<div class="col-lg-6">
 			<a class="portfolio-item" onclick="fn_about('Interest');">
 				<div class="caption">
 					<div class="caption-content">
-						<div class="h2">Interest</div>
-						<p class="mb-0">지금 이런 것에 흥미를 가지고 있어요.</p><!-- Interrests 흥미 요소 -->
+						<div class="h2" style="text-shadow: 4px 4px 3px black; font-family: 'BMDOHYEON';">Interest</div>
+						<p class="mb-0" style="font-size: 1.3rem; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; font-family: 'BMHANNAPro';">이런 것에 관심을 가지고 있습니다.</p><!-- Interrests 흥미 요소 -->
 					</div>
 				</div> 
-				<img class="img-fluid" src="resources/bootstrap/img/portfolio-4.jpg" alt="">
+				<img class="img-fluid" src="resources/images/background/winter_1.png" alt="">
 			</a>
 		</div>
 	</div>

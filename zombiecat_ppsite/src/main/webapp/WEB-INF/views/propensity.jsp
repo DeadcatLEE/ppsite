@@ -11,11 +11,11 @@
 				<i class="icon-screen-smartphone"></i>
 			</span>
 			<h4>
-				<strong>맞나? 맞네!</strong>
+				<strong>이건 뭘까?</strong>
 			</h4>
 			<p class="text-faded mb-0">새로운 것에 호기심이 많습니다.</p>
 			<p class="text-faded mb-0">+</p>
-			<p class="text-faded mb-0">새로운 것을 배우는 건, 자신의 능력 향상으로 이어집니다.</p>
+			<p class="text-faded mb-0">새로운 것을 배우면 경험치가 쌓이는 느낌입니다.</p>
 		</div>
 		<div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
 			<span class="service-icon rounded-circle mx-auto mb-3"> 
@@ -24,7 +24,7 @@
 			<h4>
 				<strong>기록을 남기다</strong>
 			</h4>
-			<p class="text-faded mb-0">무언가를 한다는 것은 기록을 남기는 것입니다.</p>
+			<p class="text-faded mb-0">습관적으로 기록을 남깁니다.</p>
 			<p class="text-faded mb-0">+</p>
 			<p class="text-faded mb-0">했던, 하는, 할 것 들은 언제든 확인할 수 있어야 합니다.</p>
 		</div>
@@ -35,9 +35,9 @@
 			<h4>
 				<strong>이것은 나의 것</strong>
 			</h4>
-			<p class="text-faded mb-0">맡은 것은 책임져야 합니다.</p>
+			<p class="text-faded mb-0">책임감을 가지고 진행합니다.</p>
 			<p class="text-faded mb-0">+</p>
-			<p class="text-faded mb-0">이것은 내가 끝내야 할 일, 스스로를 투자할 수 있습니다.</p>
+			<p class="text-faded mb-0">맡은 일은 끝까지! 스스로 책임질 줄 알아야 합니다.</p>
 				<!-- <i class="fas fa-heart"></i> -->
 		</div>
 		<div class="col-lg-3 col-md-6">
