@@ -17,7 +17,7 @@
 			<a class="social-link rounded-circle text-white" href="#!"> 
 				<i class="icon-social-github"></i>
 			</a>
-		</li>
+		</li>..
 	 -->
 	</ul>
 	<p class="text-muted small mb-0">Copyright 2020. ZombieCat v1.0.0</p>
