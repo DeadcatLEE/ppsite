@@ -73,7 +73,7 @@
 					<img class="img-set" src="resources/images/baseline_cake_black_18dp.png">
 				</div>
 				<font class="zb-bx2-font1">1987</font> 
-				<font class="zb-bx2-font2">년</font> 
+				<font class="zb-bx2-font2">년 </font> 
 				<font class="zb-bx2-font1">6</font> 
 				<font class="zb-bx2-font2">월 생</font>
 			</div>
@@ -206,7 +206,7 @@
 					<div class="text-line">
 						<font class="exp-text-font">편집자(사원) / 출판 기획, 원고 작성, 저자 관리, 교정, 교열 등.</font>
 						<div class="gallery-link" style="display: inline-block; width: auto; margin-left: 20px; vertical-align: middle; font-family: 'BMHANNAAir';">
-							<a href="#">[목록 보기]</a>
+							<a href="#about_pop">[목록 보기]</a>
 						</div>
 						<div id="bkt_img" class="exp-gallery">
 							<img class="img-link" src="resources/images/books/japan.jpg">
@@ -235,8 +235,8 @@
 				<div class="exp-title-icon-empty"></div>
 					<div class="text-line">
 						<font class="exp-text-font">편집자(사원) / 출판 기획, 원고 작성, 저자 관리, 교정, 교열 등.</font>
-						<div class="gallery-link" style="display: inline-block; width: auto; margin-left: 20px; vertical-align: middle; font-family: 'BMHANNAAir';">
-							<a href="#">[목록 보기]</a>
+						<div class="gallery-link">
+							<a href="#about_pop">[목록 보기]</a>
 						</div>
 						<div id="dbcmc_img" class="exp-gallery">
 							<img class="img-link" src="resources/images/books/deon1.jpg">

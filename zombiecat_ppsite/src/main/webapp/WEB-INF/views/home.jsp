@@ -1,8 +1,9 @@
 <%@page import="com.fasterxml.jackson.annotation.JsonInclude.Include"%>
-<%@ page language="java" contentType="text/html;charset=UTF-8" pageEncoding="UTF-8" %>
+<%@ page language="java" contentType="text/html;charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>
 
 <!DOCTYPE html>
 
@@ -582,11 +583,256 @@
 }
 
 /* 반응형 설정 */
-@media ( max-width : 1023px) {
+@media ( max-width : 1199px) {
+	.abt-zb-textbox {
+		padding: 60px 40px 60px 60px;
+	}
+	.text-line {
+		width: 94%;
+	}
+	.port-box-img {
+		height: auto;
+	}
+	.port-main-img {
+		width: 100%;
+		height: auto;
+	}
+	.half {
+		padding: 20px 0px;
+	}
 }
 
-/* 사이즈 하나 더 들어 가야 함  1199 이게 위에꺼인듯*/
 @media ( max-width : 991px) {
+	/* div 관련 */
+	.content-section {
+		padding-top: 1rem;
+		padding-bottom: 2rem;
+	}
+	.about-navigation {
+		height: 90px;
+		padding: 0px 20px 30px 20px;
+		margin: 10px 0px 50px 0px;
+	}
+	.abt-zb-imgbox {
+		width: 100%;
+		height: 300px;
+		float: none;
+		padding: 0px;
+	}
+	.abt-zb-textbox {
+		width: 100%;
+		height: 300px;
+		padding: 10px 10px 10px 20px;
+	}
+	.abt-zb-textbox>.zbbox1 {
+		height: 50px;
+		text-align: center;
+		margin: 20px 0px 10px 0px;
+	}
+	.abt-zb-textbox>.zbbox2 {
+		height: 55px;
+		text-align: left;
+		padding-left: 100px;
+	}
+	.zb-bx1-font1 {
+		font-size: 2.5rem;
+	}
+	.zb-bx1-font2 {
+		font-size: 2rem;
+	}
+	.zb-bx2-font1 {
+		font-size: 2rem;
+	}
+	.zb-bx2-font2 {
+		font-size: 2rem;
+	}
+	.exp-menu-box {
+		width: 100%;
+		height: auto;
+		padding: 20px 13px 30px 13px;
+		text-align: center;
+	}
+	.exp-text-padd {
+		width: 100%;
+		height: 490px;
+		padding: 30px 40px 10px 40px;
+	}
+	.exp-title-main {
+		width: 100%;
+	}
+	.exp-title-sub {
+		width: 100%;
+	}
+	.exp-title-icon {
+		width: 2rem;
+		height: 2rem;
+		line-height: 1.5rem;
+		margin-right: 10px;
+	}
+	.exp-title-icon-empty {
+		width: 2rem;
+	}
+	.main-font1 {
+		font-size: 2rem;
+	}
+	.sub-font1 {
+		font-size: 1.5rem;
+		vertical-align: middle;
+	}
+	.main-font2 {
+		font-size: 1.6rem;
+	}
+	.exp-text-font {
+		font-size: 1.4rem;
+	}
+	.text-line {
+		width: 92%;
+	}
+	.gallery-link {
+		display: block;
+		width: auto;
+		font-family: 'BMHANNAAir';
+		float: right;
+	}
+	.pro-edu-box {
+		height: 350px;
+		padding: 60px 40px 10px 40px;
+	}
+	.pro-skill-box {
+		width: 100%;
+		height: 250px;
+		padding: 10px 40px 10px 40px;
+	}
+	.pro-title-main {
+		width: 67%;
+		letter-spacing: -1px;
+	}
+	.pro-title-sub {
+		width: 32%;
+		vertical-align: bottom;
+	}
+	.skills-main {
+		padding: 20px 10px;
+	}
+	.skills-sub {
+		display: flex;
+		height: 60px;
+		padding: 10px 10px 0px 10px;
+	}
+	.skills-font {
+		font-size: 1.8rem;
+		letter-spacing: 5px;
+	}
+	.skill-div-font {
+		font-size: 1.5rem;
+	}
+	.skill-etc {
+		font-size: 1rem;
+		letter-spacing: 0px;
+	}
+	.move-height {
+		min-height: 400px;
+	}
+	.int-text-padd {
+		width: 100%;
+		height: 600px;
+		padding: 10px 30px 50px 40px;
+	}
+	.port-box-img {
+		height: auto;
+		padding-bottom: 30px;
+		overflow: hidden;
+	}
+	.port-side {
+		width: 10%;
+		height: 600px;
+	}
+	.port-box-text {
+		height: 300px;
+		flex-direction: column;
+	}
+	.half {
+		width: 100%;
+		padding: 0px;
+	}
+	.navy-left {
+		width: 20%;
+	}
+	.navy-center {
+		width: 58%;
+	}
+	.navy-right {
+		width: 20%;
+	}
+
+	/* 이미지 관련 */
+	.profile-img {
+		display: block;
+		margin: 0 auto;
+		width: auto;
+		height: 100%;
+		border: 5px solid #A4A4A4;
+		border-radius: 80px;
+	}
+	.img {
+		width: auto;
+		height: 100%;
+	}
+	.port-side-img {
+		max-width: 60px;
+		max-height: 60px;
+	}
+	.cont-body {
+		padding: 10px 40px 10px 40px;
+	}
+	.cont-small {
+		width: 450px;
+	}
+	.cont-textarea {
+		width: 450px;
+	}
+	.pdf-icon {
+		width: 1.5rem;
+		height: 1.5rem;
+	}
+
+	/* 간격 관련 */
+	.wid20 {
+		width: 20%;
+	}
+	.wid40 {
+		width: 40%;
+	}
+	.wid60 {
+		width: 59%;
+	}
+	.wid80 {
+		width: 79%;
+	}
+	.wid100 {
+		width: 100%;
+	}
+	.height450 {
+		height: 450px;
+	}
+	.content-section-heading {
+		padding-bottom: 10px;
+	}
+	.half .empty-box {
+		width: 100%;
+		height: 20px;
+	}
+	.sub-spacing {
+		letter-spacing: -2.3px;
+	}
+
+	/* magnific-popup */
+	.mfp-image-holder .mfp-content {
+		max-width: 80% !important;
+	}
+}
+
+@media ( max-width : 767px) {
 	/* div 관련 */
 	.content-section {
 		padding-top: 1rem;
@@ -739,11 +985,9 @@
 	.cont-body {
 		padding: 10px 40px 10px 40px;
 	}
-	
 	.cont-small {
 		width: 350px;
 	}
-	
 	.cont-textarea {
 		width: 350px;
 	}
@@ -825,35 +1069,50 @@
 		width: 100%;
 		height: 20px;
 	}
-	
+
 	/* magnific-popup */
 	.mfp-image-holder .mfp-content {
-	    max-width: 80% !important;
+		max-width: 80% !important;
 	}
+}
+@media
+(
+max-width
+:
+575px)
+{
 }
 </style>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="">
 <meta name="author" content="">
 
 <title>Developer ZombieCat</title>
 
 <!-- Bootstrap Core CSS -->
-<link href="resources/bootstrap/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="resources/bootstrap/vendor/bootstrap/css/bootstrap.min.css"
+	rel="stylesheet">
 
 <!-- Portfolio Fonts -->
-<link href="resources/bootstrap/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
-<link href="resources/bootstrap/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+<link href="resources/bootstrap/vendor/fontawesome-free/css/all.min.css"
+	rel="stylesheet" type="text/css">
+<link
+	href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
+	rel="stylesheet" type="text/css">
+<link
+	href="resources/bootstrap/vendor/simple-line-icons/css/simple-line-icons.css"
+	rel="stylesheet">
 
 <!-- Portfolio CSS -->
-<link href="resources/bootstrap/css/stylish-portfolio.min.css" rel="stylesheet">
+<link href="resources/bootstrap/css/stylish-portfolio.min.css"
+	rel="stylesheet">
 
 <!-- Menu Bar -->
 <link href="resources/bootstrap/css/styles.css" rel="stylesheet">
- 
+
 <!-- Custom CSS -->
 <link href="resources/bootstrap/css/custom-style.css" rel="stylesheet">
 
@@ -864,24 +1123,37 @@
 
 <body id="page-top">
 	<!-- Navigation-->
-	<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+	<nav
+		class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
+		id="mainNav">
 		<div class="container">
 			<a class="navbar-brand js-scroll-trigger" href="#page-top">ZombieCat</a>
-			<button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-				Menu
-				<i class="fas fa-bars"></i>
+			<button
+				class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
+				type="button" data-toggle="collapse" data-target="#navbarResponsive"
+				aria-controls="navbarResponsive" aria-expanded="false"
+				aria-label="Toggle navigation">
+				Menu <i class="fas fa-bars"></i>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">ABOUT</a></li>
-					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#propensity">PROPENSITY</a></li>					
-					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PORTFOLIO</a></li>
-					<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">CONTACT</a></li>
+					<li class="nav-item mx-0 mx-lg-1"><a
+						class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+						href="#about">ABOUT</a></li>
+					<li class="nav-item mx-0 mx-lg-1"><a
+						class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+						href="#propensity">PROPENSITY</a></li>
+					<li class="nav-item mx-0 mx-lg-1"><a
+						class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+						href="#portfolio">PORTFOLIO</a></li>
+					<li class="nav-item mx-0 mx-lg-1"><a
+						class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+						href="#contact">CONTACT</a></li>
 				</ul>
 			</div>
 		</div>
 	</nav>
-        
+
 	<!-- Navigation2 -->
 	<!-- 
 	<a class="menu-toggle rounded" href="#"> <i class="fas fa-bars"></i>
@@ -909,62 +1181,68 @@
 		</ul>
 	</nav>
  	-->
- 	
+
 	<!-- Header -->
 	<header class="masthead d-flex">
 		<div class="container text-center my-auto">
 			<div class="mast-min-height"></div>
 			<div class="mast-min-height"></div>
-			<h1 class="mb-1" style="text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;">Who is ZombieCat?</h1>
-			<h3 class="mb-5" style="text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;">
+			<h1 class="mb-1"
+				style="text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;">Who
+				is ZombieCat?</h1>
+			<h3 class="mb-5"
+				style="text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;">
 				<em>New Java Back-End Developer</em>
 			</h3>
-			<a class="btn btn-primary btn-xl js-scroll-trigger btn-wd" href="#about">About me</a>
+			<a class="btn btn-primary btn-xl js-scroll-trigger btn-wd"
+				href="#about">About me</a>
 			<div class="mast-min-height"></div>
 		</div>
 		<div class="overlay"></div>
 	</header>
 
 	<!-- About -->
-	<section class="content-section bg-light" style="padding: 40px 0px;"></section>
-	
+	<section class="content-section bg-light" style="padding: 40px 0px;"
+		id="about_pop"></section>
+
 	<section class="content-section bg-light" id="about">
-		<%@ include file="/WEB-INF/views/about.jsp" %>
+		<%@ include file="/WEB-INF/views/about.jsp"%>
 	</section>
 
 	<section class="content-section bg-light" style="padding: 20px 0px;"></section>
 
 	<!-- Services -->
 	<section class="content-section bg-primary" style="padding: 40px 0px;"></section>
-	
-	<section class="content-section bg-primary text-white text-center" id="propensity">
-		<%@ include file="/WEB-INF/views/propensity.jsp" %>
+
+	<section class="content-section bg-primary text-white text-center"
+		id="propensity">
+		<%@ include file="/WEB-INF/views/propensity.jsp"%>
 	</section>
 
 	<section class="content-section bg-primary" style="padding: 20px 0px;"></section>
-	
+
 	<!-- Portfolio -->
 	<section class="content-section" style="padding: 40px 0px;"></section>
-		
+
 	<section class="content-section margin-bt-10" id="portfolio">
-		<%@ include file="/WEB-INF/views/portfolio.jsp" %>
+		<%@ include file="/WEB-INF/views/portfolio.jsp"%>
 	</section>
 
 	<section class="content-section" style="padding: 20px 0px;"></section>
-	
+
 	<!-- Contact -->
 	<section class="content-section bg-primary" style="padding: 40px 0px;"></section>
-		
+
 	<section class="content-section bg-primary margin-bt-10" id="contact">
-		<%@ include file="/WEB-INF/views/contact.jsp" %>
+		<%@ include file="/WEB-INF/views/contact.jsp"%>
 	</section>
 
 	<section class="content-section bg-primary" style="padding: 20px 0px;"></section>
-	
-	
+
+
 	<!-- Footer -->
 	<footer class="footer text-center">
-		<%@ include file="/WEB-INF/views/footer.jsp" %>
+		<%@ include file="/WEB-INF/views/footer.jsp"%>
 	</footer>
 
 	<!-- Scroll to Top Button-->
@@ -974,29 +1252,35 @@
 
 	<!-- Bootstrap core JavaScript -->
 	<script src="resources/bootstrap/vendor/jquery/jquery.min.js"></script>
-	<script src="resources/bootstrap/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script
+		src="resources/bootstrap/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 	<!-- Plugin JavaScript -->
-	<script src="resources/bootstrap/vendor/jquery-easing/jquery.easing.min.js"></script>
+	<script
+		src="resources/bootstrap/vendor/jquery-easing/jquery.easing.min.js"></script>
 
 	<!-- Portfolio scripts for this template -->
 	<script src="resources/bootstrap/js/stylish-portfolio.min.js"></script>
 
 	<!-- Menu Bar -->
 	<script src="resources/bootstrap/js/scripts.js"></script>
-	
+
 	<!-- Modal -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 	<!-- Custom event -->
-	<script type="text/javascript" src="resources/bootstrap/js/custom-script.js" charset="utf-8"></script>
+	<script type="text/javascript"
+		src="resources/bootstrap/js/custom-script.js" charset="utf-8"></script>
 
 	<!-- Magnific Popup core JS file -->
 	<script src="resources/bootstrap/js/jquery.magnific-popup.js"></script>
-	
+
 	<!-- emailJS -->
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+	<script type="text/javascript"
+		src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 </body>
 
 </html>

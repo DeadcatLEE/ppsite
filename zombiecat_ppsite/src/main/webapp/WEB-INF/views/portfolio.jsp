@@ -20,7 +20,7 @@
 						<font class="port-text-sub">펫시터 매칭 사이트 / 웹 애플리케이션</font><br><br>
 						<font class="port-text-sub">개발 인원: </font><font class="port-text">5명</font><br>
 						<font class="port-text-sub">개발 기간 : </font><font class="port-text">20.01.13 ~ 20.02.13 (33일)</font><br>
-						<font class="port-text-sub">소개 : </font><font class="port-text">사용자가 요청하는 지역, 일정, 조건에 맞는 펫시터를 주선하는 중개 사이트.</font>
+						<font class="port-text-sub sub-spacing">소개 : </font><font class="port-text">사용자가 요청하는 지역, 일정, 조건에 맞는 펫시터를 주선하는 중개 사이트.</font>
 					</div>
 					<div id="port-half-right" class="half">
 						<div class="empty-box"></div>

@@ -296,7 +296,7 @@
 				$('#port-side-left').attr("onclick", "fn_port_move('dengdeng')");
 				$('#port-side-right').attr("onclick", "fn_port_move('dengdeng')");
 				document.getElementById('port-half-left').innerHTML = '<font class="port-text-main">좀비캣</font><br><font class="port-text-sub">포트폴리오 사이트 / 웹 사이트</font><br><br><font class="port-text-sub">개발 인원 : </font><font class="port-text">1명</font><br><font class="port-text-sub">개발 기간 : </font><font class="port-text">20.10.27 ~ 지속 업데이트</font><br><font class="port-text-sub">소개 : </font><font class="port-text">포트폴리오 용도의 사이트.</font>';
-				document.getElementById('port-half-right').innerHTML = '<div class="empty-box"></div><font class="port-text-sub">개발 환경 : </font><font class="port-text">Eclipse, Window</font><br><font class="port-text-sub">개발 언어 : </font><font class="port-text">Java, JavaScript, CSS, HTML</font><br><font class="port-text-sub">웹 서버 : </font><font class="port-text">미사용</font>';
+				document.getElementById('port-half-right').innerHTML = '<div class="empty-box"></div><font class="port-text-sub">개발 환경 : </font><font class="port-text">Eclipse, Window</font><br><font class="port-text-sub">개발 언어 : </font><font class="port-text">Java, JavaScript, CSS, HTML</font><br><font class="port-text-sub">웹 서버 : </font><font class="port-text">Tomcat 9</font>';
 			}
 		}
 		

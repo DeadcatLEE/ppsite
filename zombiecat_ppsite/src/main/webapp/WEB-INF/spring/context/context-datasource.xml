@@ -9,9 +9,14 @@
 	<!-- 데이터베이스 연결 -->
 	<bean id="dataSource" class="org.apache.commons.dbcp2.BasicDataSource" destroy-method="close">
 		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
+		<!-- Local DB -->
 		<property name="url" value="jdbc:oracle:thin:@localhost:1521:xe" />
 		<property name="username" value="zombiecatppsite" />
 		<property name="password" value="deadcat253" />
+		<!-- AWS DB -->
+		<!-- <property name="url" value="jdbc:oracle:thin:@3.35.190.204:1521:xe" />
+		<property name="username" value="deadcat253" />
+		<property name="password" value="lhs1235314" /> -->
 	</bean>
 
 	<!-- 쿼리문을 실행할 때마다 로그를 찍음. 없으면 안 찍음. -->
