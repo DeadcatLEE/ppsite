@@ -10,8 +10,8 @@
 			<a class="portfolio-item" onclick="fn_about('ZombieCat');">
 				<div class="caption">
 					<div class="caption-content">
-						<div class="h2" style="text-shadow: 4px 4px 3px black; font-family: 'BMDOHYEON';">ZombieCat</div>
-						<p class="mb-0" style="font-size: 1.3rem; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; font-family: 'BMHANNAPro';">안녕하세요! ZombieCat입니다.</p><!-- Privacy 개인 정보 -->
+						<div class="h2 about-font-main">ZombieCat</div>
+						<p class="mb-0 about-font-sub">안녕하세요! ZombieCat입니다.</p><!-- Privacy 개인 정보 -->
 					</div>
 				</div> 
 				<img class="img-fluid" src="resources/images/background/spring_2.png" alt="">
@@ -21,8 +21,8 @@
 			<a class="portfolio-item" onclick="fn_about('Experience');">
 				<div class="caption">
 					<div class="caption-content">
-						<div class="h2" style="text-shadow: 4px 4px 3px black; font-family: 'BMDOHYEON';">Experience</div>
-						<p class="mb-0" style="font-size: 1.3rem; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; font-family: 'BMHANNAPro';">이렇게 지냈습니다.</p><!-- Experience 경험/이력 -->
+						<div class="h2 about-font-main">Experience</div>
+						<p class="mb-0 about-font-sub">이렇게 지냈습니다.</p><!-- Experience 경험/이력 -->
 					</div>
 				</div> 
 				<img class="img-fluid" src="resources/images/background/fall_2.png" alt="">
@@ -32,8 +32,8 @@
 			<a class="portfolio-item" onclick="fn_about('Programming');">
 				<div class="caption">
 					<div class="caption-content">
-						<div class="h2" style="text-shadow: 4px 4px 3px black; font-family: 'BMDOHYEON';">Programming</div>
-						<p class="mb-0" style="font-size: 1.3rem; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; font-family: 'BMHANNAPro';">프로그래밍에 대한 기반입니다.</p><!-- Education 교육 / Skills 기술 -->
+						<div class="h2 about-font-main">Programming</div>
+						<p class="mb-0 about-font-sub">프로그래밍에 대한 기반입니다.</p><!-- Education 교육 / Skills 기술 -->
 					</div>
 				</div> 
 				<img class="img-fluid" src="resources/images/background/summer_1.png" alt="">
@@ -43,8 +43,8 @@
 			<a class="portfolio-item" onclick="fn_about('Interest');">
 				<div class="caption">
 					<div class="caption-content">
-						<div class="h2" style="text-shadow: 4px 4px 3px black; font-family: 'BMDOHYEON';">Interest</div>
-						<p class="mb-0" style="font-size: 1.3rem; text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; font-family: 'BMHANNAPro';">이런 것에 관심을 가지고 있습니다.</p><!-- Interrests 흥미 요소 -->
+						<div class="h2 about-font-main">Interest</div>
+						<p class="mb-0 about-font-sub">이런 것에 관심을 가지고 있습니다.</p><!-- Interrests 흥미 요소 -->
 					</div>
 				</div> 
 				<img class="img-fluid" src="resources/images/background/winter_1.png" alt="">
@@ -205,7 +205,7 @@
 					<div class="exp-title-icon-empty"></div>
 					<div class="text-line">
 						<font class="exp-text-font">편집자(사원) / 출판 기획, 원고 작성, 저자 관리, 교정, 교열 등.</font>
-						<div class="gallery-link" style="display: inline-block; width: auto; margin-left: 20px; vertical-align: middle; font-family: 'BMHANNAAir';">
+						<div class="gallery-link">
 							<a href="#about_pop">[목록 보기]</a>
 						</div>
 						<div id="bkt_img" class="exp-gallery">
@@ -310,8 +310,8 @@
 				<font class="sub-font1">2019.10 - 2020.03</font>
 			</div>
 			<div class="pro-title-main wid100">
-				<div class="exp-title-icon-empty"></div>
-				<font class="main-font2">자바(Java) 안드로이드 웹 & 앱 개발자 과정</font>
+				<div class="exp-title-icon-empty pro-empty"></div>
+				<font class="main-font2 main-font2-letter">자바(Java) 안드로이드 웹 & 앱 개발자 과정</font>
 			</div>
 			<div class="empty-div"></div>
 			<div class="pro-title-main">
@@ -324,7 +324,7 @@
 				<font class="sub-font1">2019.08 - 2019.10</font>
 			</div>
 			<div class="pro-title-main wid100">
-				<div class="exp-title-icon-empty"></div>
+				<div class="exp-title-icon-empty pro-empty"></div>
 				<font class="main-font2">파이썬(Python) 프로그래밍 과정</font>
 			</div>
 		</div>

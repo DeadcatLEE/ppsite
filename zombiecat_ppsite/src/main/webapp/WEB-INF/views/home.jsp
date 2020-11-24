@@ -454,13 +454,23 @@
 	height: 27px;
 	margin-left: 10px;
 	cursor: pointer;
-	"
 }
 
 /* font style */
 .hd-font {
 	font-family: BMDOHYEON;
 	font-weight: bolder;
+}
+
+.about-font-main {
+	text-shadow: 4px 4px 3px black; 
+	font-family: 'BMDOHYEON' !important;
+}
+
+.about-font-sub {
+	font-size: 1.3rem !important; 
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; 
+	font-family: 'BMHANNAPro';
 }
 
 .zb-bx1-font1 {
@@ -582,6 +592,10 @@
 	height: 10rem;
 }
 
+.content-section {
+    padding-bottom: 3.5rem !important;
+}
+
 /* 반응형 설정 */
 @media ( max-width : 1199px) {
 	.abt-zb-textbox {
@@ -600,13 +614,17 @@
 	.half {
 		padding: 20px 0px;
 	}
+	.content-section {
+	    padding-top: 1rem !important;
+	    padding-bottom: 2.5rem !important;
+	}
 }
 
 @media ( max-width : 991px) {
 	/* div 관련 */
 	.content-section {
-		padding-top: 1rem;
-		padding-bottom: 2rem;
+		padding-top: 1rem !important;
+		padding-bottom: 2rem !important;
 	}
 	.about-navigation {
 		height: 90px;
@@ -834,45 +852,25 @@
 
 @media ( max-width : 767px) {
 	/* div 관련 */
-	.content-section {
-		padding-top: 1rem;
-		padding-bottom: 2rem;
+	.about-navigation {
+		margin: 30px 0px 0px 0px;
 	}
 	.abt-zb-imgbox {
-		width: 100%;
-		height: 200px;
-		float: none;
-		padding: 0px;
+		height: 250px;
 	}
-	.abt-zb-textbox {
-		width: 100%;
-		height: 300px;
-		padding: 10px 10px 10px 20px;
+	.zbbox2 .img {
+		width: 1.8rem;
+		height: 1.8rem;
+		line-height: 1.8rem;
 	}
 	.abt-zb-textbox>.zbbox1 {
-		height: 50px;
-		text-align: center;
-		margin: 20px 0px 10px 0px;
+		margin: 20px 0px 30px 0px;
 	}
 	.abt-zb-textbox>.zbbox2 {
-		height: 55px;
-		text-align: left;
 		padding-left: 50px;
 	}
 	.skill-progress .progress {
 		height: 1.1rem;
-	}
-	.exp-menu-box {
-		width: 100%;
-		height: auto;
-		padding: 20px 13px 30px 13px;
-		text-align: center;
-	}
-	.exp-title-main {
-		width: 100%;
-	}
-	.exp-title-sub {
-		width: 100%;
 	}
 	.pro-title-main {
 		width: 100%;
@@ -880,14 +878,8 @@
 	.pro-title-sub {
 		width: 100%;
 	}
-	.pro-edu-box {
-		height: 300px;
-		padding: 60px 40px 10px 40px;
-	}
 	.pro-skill-box {
-		width: 100%;
 		height: 200px;
-		padding: 10px 40px 10px 40px;
 	}
 	.skills-main {
 		padding: 10px;
@@ -897,93 +889,35 @@
 		height: 4em;
 		line-height: 3.8em;
 	}
-	.skills-sub {
-		display: flex;
-		height: 60px;
-		padding: 10px 10px 0px 10px;
-	}
 	.skill-grade {
 		width: 12%;
-		text-align: right;
+		text-align: center;
 		font-size: 0.9rem;
 	}
 	.skill-etc {
 		width: 47%;
 		font-size: 0.9rem;
 	}
-	.move-height {
-		min-height: 400px;
-	}
 	.exp-text-padd {
-		width: 100%;
-		height: 390px;
-		padding: 30px 40px 10px 40px;
-	}
-	.about-navigation {
-		height: 90px;
-		padding: 0px 20px 40px 20px;
-		margin: 10px 0px 50px 0px;
+		height: 440px;
 	}
 	.int-text-padd {
-		width: 100%;
-		height: 500px;
-		padding: 10px 30px 50px 40px;
+		height: 550px;
 	}
-	.port-box-img {
-		height: 300px;
-		padding-bottom: 30px;
-		overflow: hidden;
+	.port-body {
+	    height: 650px;
 	}
 	.port-side {
-		width: 10%;
 		height: 600px;
-	}
-	.port-box-text {
-		height: 300px;
-		flex-direction: column;
-	}
-	.half {
-		width: 100%;
-		padding: 0px;
-	}
-	.navy-left {
-		width: 20%;
-	}
-	.navy-center {
-		width: 58%;
-	}
-	.navy-right {
-		width: 20%;
 	}
 
 	/* 이미지 관련 */
-	.profile-img {
-		display: block;
-		margin: 0 auto;
-		width: auto;
-		height: 100%;
-		border: 5px solid #A4A4A4;
-		border-radius: 80px;
-	}
-	.img {
-		width: auto;
-		height: 100%;
-	}
-	.exp-title-icon {
-		width: 1.5rem;
-		height: 1.5rem;
-		line-height: 1.5rem;
-		margin-right: 10px;
-	}
 	.port-main-img {
-		margin-left: -25%;
+		margin-bottom: 30px;
 	}
 	.port-side-img {
 		max-width: 50px;
 		max-height: 50px;
-	}
-	.cont-body {
-		padding: 10px 40px 10px 40px;
 	}
 	.cont-small {
 		width: 350px;
@@ -991,124 +925,304 @@
 	.cont-textarea {
 		width: 350px;
 	}
-
+	
 	/* 폰트 관련 */
-	.zb-bx1-font1 {
-		font-size: 2rem;
-	}
-	.zb-bx1-font2 {
-		font-size: 1.5rem;
-	}
 	.zb-bx2-font1 {
-		font-size: 1.5rem;
+		font-size: 1.7rem;
 	}
 	.zb-bx2-font2 {
-		font-size: 1.5rem;
+		font-size: 1.7rem;
 	}
 	.main-font1 {
-		font-size: 1.5rem;
+		font-size: 1.7rem;
 	}
 	.main-font2 {
-		font-size: 1.3rem;
-		letter-spacing: -0.11rem;
-	}
-	.sub-font1 {
-		font-size: 1rem;
-		vertical-align: super;
+		font-size: 1.4rem;
 	}
 	.exp-text-font {
-		font-size: 1.1rem;
+		font-size: 1.3rem;
+		letter-spacing: -1px;
 	}
-	.skills-font {
-		font-size: 1.8rem;
-		letter-spacing: 5px;
+	.sub-font1 {
+		font-size: 1.4rem;
+		letter-spacing: -1.6px;
 	}
 	.skill-div-font {
 		font-size: 1.3rem;
 	}
-	.port-text-main {
-		font-size: 1.3rem;
-	}
-	.port-text-sub {
-		font-size: 1.1rem;
-		font-size: 1.1rem;
-	}
-	.port-text {
-		font-size: 1.1rem;
-	}
 
 	/* 간격 관련 */
-	.wid80 {
-		width: 79%;
-	}
-	.wid20 {
-		width: 20%;
-	}
-	.wid60 {
-		width: 59%;
-	}
-	.wid40 {
-		width: 40%;
-	}
 	.text-line {
 		width: 88%;
 	}
+	.exp-title-icon {
+		width: 1.7rem;
+		height: 1.7rem;
+		line-height: 1.7rem;
+	}
 	.exp-title-icon-empty {
-		width: 1.5rem;
+		width: 1.7rem;
 	}
-	.empty-div {
-		height: 15px;
+	.gallery-link {
+		margin-top: 5px;
 	}
-	.height450 {
-		height: 450px;
-	}
-	.content-section-heading {
-		padding-bottom: 10px;
-	}
-	.half .empty-box {
-		width: 100%;
-		height: 20px;
-	}
-
 	/* magnific-popup */
 	.mfp-image-holder .mfp-content {
-		max-width: 80% !important;
+		max-width: 60% !important;
 	}
 }
-@media
-(
-max-width
-:
-575px)
-{
+
+@media ( max-width : 575px ) {
+	.masthead {
+		height: 700px !important;
+	}
+	.mast-min-height {
+	    height: 4rem;
+	}
+	.masthead h1 {
+	    font-size: 3rem !important;
+	}
+	.btn-wd {
+	    width: 180px !important;
+	}
+	.btn-xl {
+	    padding: 0.8rem 0.5rem !important;
+	}
+	.content-section-heading h2 {
+	    font-size: 2rem !important;
+	    margin-bottom: 0.5rem !important;
+	}
+	.empty-section {
+		padding: 10px 0px !important;
+	}
+	.h2, h2 {
+	    font-size: 1.5rem !important;
+	}
+	.about-font-sub {
+	    letter-spacing: -1.5px;
+	}
+	.abt-zb-imgbox {
+	    height: 150px;
+	}
+	.abt-zb-textbox {
+    	height: 200px;
+    }
+    .abt-zb-textbox>.zbbox1 {
+	    margin: 10px 0px 10px 0px;
+	}
+	.zb-bx1-font1 {
+	    font-size: 2rem;
+	}
+	.zb-bx1-font2 {
+	    font-size: 1.5rem;
+	}
+	.abt-zb-textbox>.zbbox2 {
+	    padding-left: 10px;
+	    height: 40px;
+	}
+	.zbbox2 .img {
+	    width: 1.5rem;
+	    height: 1.5rem;
+	    line-height: 1.5rem;
+	}
+	.zb-bx2-font1 {
+	    font-size: 1.5rem;
+	}
+	.zb-bx2-font2 {
+	    font-size: 1.5rem;
+	}
+	.navy-center {
+		width: 57%;
+	}
+	.about-navigation {
+	    margin: 15px 0px 0px 0px;
+	    padding: 0px 20px 40px 20px;
+	}
+	.exp-menu-box {
+	    padding: 0px 13px 0px 13px;
+	}
+	.menu-icon {
+	    height: 50px;
+	    width: 50px;
+	}
+	.exp-title-icon {
+	    width: 1.3rem;
+	    height: 1.3rem;
+	    line-height: 1.3rem;
+	    margin-right: 5px;
+	}
+	.main-font1 {
+	    font-size: 1.3rem;
+	}
+	.exp-text-padd {
+		height: 300px;	
+		padding: 20px 10px 10px 10px;
+	}
+	.wid60 {
+	    width: 58%;
+	}
+	.sub-font1 {
+	    font-size: 1.1rem;
+	    letter-spacing: -1.7px;
+	}
+	.wid80 {
+	    width: 78%;
+	}
+	.exp-title-icon-empty {
+	    width: 1.3rem;
+	    margin-right: 5px;
+	}
+	.main-font2 {
+	    font-size: 1.2rem;
+	}
+	.exp-text-font {
+	    font-size: 1.1rem;
+	    letter-spacing: -1px;
+	}
+	.empty-div {
+	    height: 10px;
+	}
+	.mg-top-10 {
+	    margin-top: 5px;
+	}
+	.exp-text {
+	    margin-top: 0px;
+	}
+	.gallery-link {
+	    margin-top: 3px;
+	}
+	.pro-edu-box {
+	    height: 190px;
+    	padding: 0px 10px 0px 10px;
+	}
+	.pro-empty {
+		width: 0px;
+    	margin-right: 0px;
+	}
+	.main-font2-letter {
+		letter-spacing: -2px;
+	}
+	.pro-skill-box {
+	    height: 160px;
+	    padding: 10px 10px 0px 10px;
+	}
+	.skills-font {
+	    font-size: 1.5rem;
+	}
+	.skills-main {
+	    padding: 5px;
+	}
+	.skill-div {
+	    width: 3em;
+	    height: 3em;
+	    line-height: 2.8em;
+	}
+	.skill-div-font {
+	    font-size: 1rem;
+	}
+	.skills-sub {
+	    display: block;
+	    padding: 10px 10px 0px 10px;
+	}
+	.skill-progress {
+	    display: inline-block;
+	    width: 78%;
+	    height: 20px;
+	}
+	.skill-grade {
+	    width: 20%;
+	    text-align: right;
+	    height: 20px;
+	}
+	.skill-etc {
+	    width: 100%;
+	    height: 20px;
+	    text-align: left;
+	}
+	.int-text-padd {
+	    height: 460px;
+	    padding: 0px 10px;
+	}
+	.port-body {
+	    height: 550px;
+	}
+	.port-side {
+		width: 5%;
+	    height: 100%;
+	}
+	.port-side-img {
+	    max-width: 30px;
+	    max-height: 30px;
+	}
+	.port-center {
+	    width: 90%;
+	}
+	.port-box-img {
+	    margin-bottom: 10px;
+	    padding-bottom: 0px;
+	    overflow: unset;
+	}
+	.port-main-img {
+		margin-bottom: 0px;
+	}
+	.port-box-text {
+	    height: 100%;
+	    padding: 10px 0px 0px 5px;
+	}
+	.port-text-main {
+	    font-size: 1.3rem;
+	}
+	.pdf-icon {
+	    width: 1.3rem;
+	    height: 1.3rem;
+	}
+	.port-text-sub {
+	    font-size: 1.1rem;
+	    letter-spacing: -1px;
+	}
+	.port-text {
+	    font-size: 1.1rem;
+	}
+	.half {
+		height: auto;
+	}
+	.half .empty-box {
+	    height: 10px;
+	}
+	.cont-body {
+	    padding: 10px 10px 10px 10px;
+	}
+	.cont-small {
+	    width: 280px;
+	}
+	.cont-textarea {
+	    width: 280px;
+	}
+	footer.footer {
+	    padding-top: 2rem !important;
+	    padding-bottom: 2rem !important;
+	}
 }
+
 </style>
 
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport"
-	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="description" content="">
 <meta name="author" content="">
 
 <title>Developer ZombieCat</title>
 
 <!-- Bootstrap Core CSS -->
-<link href="resources/bootstrap/vendor/bootstrap/css/bootstrap.min.css"
-	rel="stylesheet">
+<link href="resources/bootstrap/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 <!-- Portfolio Fonts -->
-<link href="resources/bootstrap/vendor/fontawesome-free/css/all.min.css"
-	rel="stylesheet" type="text/css">
-<link
-	href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic"
-	rel="stylesheet" type="text/css">
-<link
-	href="resources/bootstrap/vendor/simple-line-icons/css/simple-line-icons.css"
-	rel="stylesheet">
+<link href="resources/bootstrap/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+<link href="resources/bootstrap/vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
 
 <!-- Portfolio CSS -->
-<link href="resources/bootstrap/css/stylish-portfolio.min.css"
-	rel="stylesheet">
+<link href="resources/bootstrap/css/stylish-portfolio.min.css" rel="stylesheet">
 
 <!-- Menu Bar -->
 <link href="resources/bootstrap/css/styles.css" rel="stylesheet">
@@ -1123,32 +1237,24 @@ max-width
 
 <body id="page-top">
 	<!-- Navigation-->
-	<nav
-		class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top"
-		id="mainNav">
+	<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
 		<div class="container">
 			<a class="navbar-brand js-scroll-trigger" href="#page-top">ZombieCat</a>
-			<button
-				class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded"
-				type="button" data-toggle="collapse" data-target="#navbarResponsive"
-				aria-controls="navbarResponsive" aria-expanded="false"
-				aria-label="Toggle navigation">
-				Menu <i class="fas fa-bars"></i>
-			</button>
+			<button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> Menu <i class="fas fa-bars"></i></button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item mx-0 mx-lg-1"><a
-						class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-						href="#about">ABOUT</a></li>
-					<li class="nav-item mx-0 mx-lg-1"><a
-						class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-						href="#propensity">PROPENSITY</a></li>
-					<li class="nav-item mx-0 mx-lg-1"><a
-						class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-						href="#portfolio">PORTFOLIO</a></li>
-					<li class="nav-item mx-0 mx-lg-1"><a
-						class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
-						href="#contact">CONTACT</a></li>
+					<li class="nav-item mx-0 mx-lg-1">
+						<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">ABOUT</a>
+					</li>
+					<li class="nav-item mx-0 mx-lg-1">
+						<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#propensity">PROPENSITY</a>
+					</li>
+					<li class="nav-item mx-0 mx-lg-1">
+						<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PORTFOLIO</a>
+					</li>
+					<li class="nav-item mx-0 mx-lg-1">
+						<a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">CONTACT</a>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -1187,57 +1293,51 @@ max-width
 		<div class="container text-center my-auto">
 			<div class="mast-min-height"></div>
 			<div class="mast-min-height"></div>
-			<h1 class="mb-1"
-				style="text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;">Who
-				is ZombieCat?</h1>
-			<h3 class="mb-5"
-				style="text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;">
+			<h1 class="mb-1" style="text-shadow: -3px 0 white, 0 3px white, 3px 0 white, 0 -3px white;">Who is ZombieCat?</h1>
+			<h3 class="mb-5" style="text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;">
 				<em>New Java Back-End Developer</em>
 			</h3>
-			<a class="btn btn-primary btn-xl js-scroll-trigger btn-wd"
-				href="#about">About me</a>
+			<a class="btn btn-primary btn-xl js-scroll-trigger btn-wd" href="#about">About me</a>
 			<div class="mast-min-height"></div>
 		</div>
 		<div class="overlay"></div>
 	</header>
 
 	<!-- About -->
-	<section class="content-section bg-light" style="padding: 40px 0px;"
-		id="about_pop"></section>
+	<section class="content-section bg-light empty-section" id="about_pop"></section>
 
 	<section class="content-section bg-light" id="about">
 		<%@ include file="/WEB-INF/views/about.jsp"%>
 	</section>
 
-	<section class="content-section bg-light" style="padding: 20px 0px;"></section>
+	<section class="content-section bg-light empty-section"></section>
 
 	<!-- Services -->
-	<section class="content-section bg-primary" style="padding: 40px 0px;"></section>
+	<section class="content-section bg-primary empty-section"></section>
 
-	<section class="content-section bg-primary text-white text-center"
-		id="propensity">
+	<section class="content-section bg-primary text-white text-center" id="propensity">
 		<%@ include file="/WEB-INF/views/propensity.jsp"%>
 	</section>
 
-	<section class="content-section bg-primary" style="padding: 20px 0px;"></section>
+	<section class="content-section bg-primary empty-section"></section>
 
 	<!-- Portfolio -->
-	<section class="content-section" style="padding: 40px 0px;"></section>
+	<section class="content-section empty-section"></section>
 
 	<section class="content-section margin-bt-10" id="portfolio">
 		<%@ include file="/WEB-INF/views/portfolio.jsp"%>
 	</section>
 
-	<section class="content-section" style="padding: 20px 0px;"></section>
+	<section class="content-section empty-section"></section>
 
 	<!-- Contact -->
-	<section class="content-section bg-primary" style="padding: 40px 0px;"></section>
+	<section class="content-section bg-primary empty-section"></section>
 
 	<section class="content-section bg-primary margin-bt-10" id="contact">
 		<%@ include file="/WEB-INF/views/contact.jsp"%>
 	</section>
 
-	<section class="content-section bg-primary" style="padding: 20px 0px;"></section>
+	<section class="content-section bg-primary empty-section"></section>
 
 
 	<!-- Footer -->
@@ -1252,12 +1352,10 @@ max-width
 
 	<!-- Bootstrap core JavaScript -->
 	<script src="resources/bootstrap/vendor/jquery/jquery.min.js"></script>
-	<script
-		src="resources/bootstrap/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="resources/bootstrap/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 	<!-- Plugin JavaScript -->
-	<script
-		src="resources/bootstrap/vendor/jquery-easing/jquery.easing.min.js"></script>
+	<script src="resources/bootstrap/vendor/jquery-easing/jquery.easing.min.js"></script>
 
 	<!-- Portfolio scripts for this template -->
 	<script src="resources/bootstrap/js/stylish-portfolio.min.js"></script>
@@ -1266,21 +1364,17 @@ max-width
 	<script src="resources/bootstrap/js/scripts.js"></script>
 
 	<!-- Modal -->
-	<script
-		src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script
-		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 	<!-- Custom event -->
-	<script type="text/javascript"
-		src="resources/bootstrap/js/custom-script.js" charset="utf-8"></script>
+	<script type="text/javascript" src="resources/bootstrap/js/custom-script.js" charset="utf-8"></script>
 
 	<!-- Magnific Popup core JS file -->
 	<script src="resources/bootstrap/js/jquery.magnific-popup.js"></script>
 
 	<!-- emailJS -->
-	<script type="text/javascript"
-		src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 </body>
 
 </html>

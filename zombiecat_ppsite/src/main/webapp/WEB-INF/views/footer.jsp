@@ -20,5 +20,5 @@
 		</li>..
 	 -->
 	</ul>
-	<p class="text-muted small mb-0">Copyright 2020. ZombieCat v1.0.0</p>
+	<p class="text-muted small mb-0">Copyright 2020. ZombieCat. v1.0.0</p>
 </div>

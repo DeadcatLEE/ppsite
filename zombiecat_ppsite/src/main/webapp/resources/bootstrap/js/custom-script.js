@@ -42,9 +42,15 @@
 				emailjs.send('service_ko1t82y', 'template_8ulrh6b', templateParams)
 				//emailjs.send('service ID', 'template ID', 보낼 내용이 담긴 객체)
 					.then(function(response) {
+					$("input[name=name]").val('');
+					$("input[name=email]").val('');
+					$("input[name=phone]").val('');
+					$("textarea[name=message]").val('');
+					alert('메일 전송이 완료됐습니다.');
 					console.log('SUCCESS!', response.status, response.text);
 					}, function(error) {
 					console.log('FAILED...', error);
+					alert('메일 전송에 실패했습니다.');
 				});
 			});
 		});
@@ -308,7 +314,6 @@
 		
 		//연락처 
 		function fn_input_phone(obj) {
-
 			var number = obj.value.replace(/[^0-9]/g, "");
 			var phone = "";
 
