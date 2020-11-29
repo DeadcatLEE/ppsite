@@ -1,0 +1,1150 @@
+/* div 관련 */
+.abt-zb-imgbox {
+	width: 50%;
+	height: 580px;
+	float: left;
+	padding: 60px;
+}
+
+.abt-zb-textbox {
+	width: 50%;
+	height: 580px;
+	float: left;
+	padding: 60px;
+}
+
+.abt-zb-textbox>.zbbox1 {
+	display: inline-block;
+	width: 100%;
+	height: 100px;
+	text-align: left;
+	margin: 60px 0px 30px 0px;
+}
+
+.abt-zb-textbox>.zbbox2 {
+	display: inline-block;
+	width: 100%;
+	height: 60px;
+	text-align: left;
+}
+
+.abt-textbox {
+	width: 100%;
+	height: auto;
+}
+
+.exp-menu-box {
+	display: inline-block;
+	width: 100%;
+	height: 100px;
+	text-align: right;
+	padding: 0px 73px 10px 73px;
+}
+
+.exp-title-main {
+	display: inline-block;
+	width: 50%;
+	text-align: left;
+}
+
+.exp-title-sub {
+	display: inline-block;
+	width: 49%;
+	text-align: right;
+}
+
+.exp-text-padd {
+	width: 100%;
+	height: 480px;
+	padding: 50px 73px 10px 73px;
+}
+
+.exp-text {
+	display: inline-block;
+	width: 100%;
+	text-align: left;
+	margin-top: 5px;
+}
+
+.pro-title-main {
+	display: inline-block;
+	width: 60%;
+	text-align: left;
+}
+
+.pro-title-sub {
+	display: inline-block;
+	width: 39%;
+	text-align: right;
+}
+
+.pro-edu-box {
+	width: 100%;
+	height: 300px;
+	padding: 60px 73px 10px 73px;
+}
+
+.gallery-link {
+	display: inline-block;
+	width: auto;
+	margin-left: 5px;
+	vertical-align: bottom;
+	font-family: 'BMHANNAAir';
+}
+
+.move-height {
+	min-height: 730px;
+}
+
+.pro-skill-box {
+	width: 100%;
+	height: 280px;
+	padding: 20px 73px 40px 73px;
+}
+
+.skills-main {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 50px;
+}
+
+.skill-div {
+	width: 6em;
+	height: 6em;
+	border: 3px solid black;
+	border-radius: 50%;
+	justify-content: center;
+	align-content: center;
+	display: inline-flex;
+	line-height: 6em;
+	text-align: center;
+	cursor: pointer;
+	box-shadow: 3px 3px 3px grey;
+}
+
+.int-text-padd {
+	width: 100%;
+	height: 580px;
+	padding: 60px 73px 50px 73px;
+}
+
+.java-color:hover {
+	background-color: #e76f00;
+	color: white;
+	box-shadow: 1px 1px 1px grey;
+}
+
+.js-color:hover {
+	background-color: #f7df1e;
+	box-shadow: 1px 1px 1px grey;
+}
+
+.html-color:hover {
+	background-color: #d73a14;
+	color: white;
+	box-shadow: 1px 1px 1px grey;
+}
+
+.css-color:hover {
+	background-color: #264de4;
+	color: white;
+	box-shadow: 1px 1px 1px grey;
+}
+
+.sql-color:hover {
+	background-color: black;
+	color: white;
+	box-shadow: 1px 1px 1px grey;
+}
+
+.port-side {
+	display: inline-flex;
+	width: 10%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+.port-body {
+	display: flex;
+	width: 100%;
+	height: 728.5px;
+}
+
+.port-center {
+	display: inline-flex;
+	width: 80%;
+	height: 100%;
+	flex-direction: column;
+}
+
+.port-box-text {
+	display: inline-flex;
+	width: 100%;
+	height: 40%;
+	flex-direction: row;
+}
+
+.half {
+	width: 50%;
+	height: 100%;
+	padding: 20px 30px;
+}
+
+.half .empty-box {
+	width: 100%;
+	height: 90px;
+}
+
+.cont-body {
+	width: 100%;
+	display: flex;
+	height: auto;
+	padding: 10px 73px 20px 73px;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.cont-small {
+	width: 500px;
+	height: 40px;
+	margin-bottom: 10px;
+	font-family: 'BMHANNAAir';
+	font-size: 1.1rem;
+	border-radius: 10px;
+	border: 3px solid dimgray;
+}
+
+.cont-textarea {
+	width: 500px;
+	height: 200px;
+	margin-bottom: 10px;
+	font-family: 'BMHANNAAir';
+	font-size: 1.1rem;
+	border-radius: 10px;
+	border: 3px solid dimgray;
+	resize: none;
+}
+
+.cont-btn {
+	width: 150px;
+	height: 40px;
+	border-radius: 10px;
+	margin: 10px;
+	border: 3px solid dimgray;
+	background-color: steelblue;
+	font-family: 'BMDOHYEON';
+	color: #fff;
+	letter-spacing: 1px;
+	box-shadow: 3px 3px 3px grey;
+}
+
+/* image 추가 */
+.profile-img {
+	display: block;
+	margin: 0 auto;
+	width: 400px;
+	height: auto;
+	border: 5px solid #A4A4A4;
+	border-radius: 80px;
+}
+
+.zbbox2 .img {
+	display: inline-block;
+	width: auto;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	margin-right: 10px;
+}
+
+.menu-icon {
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+	margin: 0px 15px 0px 15px;
+	border: 2px solid black;
+	border-radius: 50%;
+	cursor: pointer;
+	box-shadow: 3px 3px 3px gray;
+}
+
+.menu-icon:hover {
+	background-color: #000000;
+	border: 2px solid #000000;
+	box-shadow: 1.5px 1.5px 1.5px gray;
+}
+
+.exp-title-icon {
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	margin-right: 10px;
+}
+
+.open-triangle {
+	width: 1.5rem;
+	height: auto;
+	vertical-align: -0.9em;
+	margin-left: 5px;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+.img-set {
+	width: 100%;
+	height: auto;
+	vertical-align: middle;
+}
+
+.img-hover {
+	border-radius: 50%;
+}
+
+.img-high {
+	width: auto;
+	height: 100%;
+	cursor: pointer;
+}
+
+.about-navigation {
+	display: block;
+	width: 100%;
+	height: 100px;
+	padding: 10px 50px 10px 50px;
+	margin-bottom: 50px;
+}
+
+.navy-left {
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	text-align: left;
+}
+
+.navy-center {
+	display: inline-block;
+	width: 59%;
+	height: 100%;
+	text-align: center;
+}
+
+.navy-right {
+	display: inline-block;
+	width: 20%;
+	height: 100%;
+	text-align: right;
+}
+
+.skills-sub {
+	display: flex;
+	width: 100%;
+	height: 50px;
+	padding: 20px 50px 0px 50px;
+}
+
+.skill-progress {
+	display: inline-block;
+	width: 40%;
+	height: 100%;
+}
+
+.skill-progress .progress {
+	height: 1.5rem;
+	border-radius: 1rem;
+}
+
+.progress-bar {
+	width: 70%;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.skill-grade {
+	display: inline-block;
+	width: 9%;
+	height: 100%;
+	text-align: center;
+	font-family: 'BMDOHYEON';
+	font-size: 1.1rem;
+	font-weight: bold;
+	color: black;
+}
+
+.skill-etc {
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+	text-align: right;
+	font-size: 1.1rem;
+	font-family: 'BMDOHYEON';
+	letter-spacing: 1px;
+	color: darkseagreen;
+}
+
+.port-side-img {
+	max-width: 100px;
+	max-height: 100px;
+	cursor: pointer;
+}
+
+.port-box-img {
+	width: 100%;
+	height: 60%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.port-main-img {
+	height: 100%;
+	width: auto;
+}
+
+.pdf-icon {
+	width: 27px;
+	height: 27px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+/* font style */
+.hd-font {
+	font-family: BMDOHYEON;
+	font-weight: bolder;
+}
+
+.about-font-main {
+	text-shadow: 4px 4px 3px black;
+	font-family: 'BMDOHYEON' !important;
+}
+
+.about-font-sub {
+	font-size: 1.3rem !important;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	font-family: 'BMHANNAPro';
+}
+
+.zb-bx1-font1 {
+	font-size: 4rem;
+	font-family: BMDOHYEON;
+	font-weight: bolder;
+}
+
+.zb-bx1-font2 {
+	font-size: 3rem;
+	font-family: BMHANNAPro;
+	font-weight: bolder;
+}
+
+.zb-bx2-font1 {
+	font-size: 2rem;
+	font-family: BMHANNAPro;
+	font-weight: bold;
+	color: #585858;
+	vertical-align: middle;
+}
+
+.zb-bx2-font2 {
+	font-size: 2rem;
+	font-family: BMHANNAPro;
+	font-weight: bold;
+	color: gray;
+	vertical-align: middle;
+}
+
+.main-font1 {
+	font-size: 2rem;
+	font-family: BMHANNAPro;
+	font-weight: bold;
+	color: #585858;
+	vertical-align: middle;
+}
+
+.main-font2 {
+	font-size: 1.7rem;
+	font-family: BMHANNAPro;
+	font-weight: bolder;
+	color: #6E6E6E;
+	vertical-align: middle;
+}
+
+.sub-font1 {
+	font-size: 1.5rem;
+	font-family: BMHANNAAir;
+	color: #6E6E6E;
+	vertical-align: sub;
+}
+
+.exp-text-font {
+	font-size: 1.5rem;
+	font-family: BMHANNAAir;
+	color: gray;
+	vertical-align: middle;
+}
+
+.skills-font {
+	font-family: BMDOHYEON;
+	font-size: 2.5rem;
+	font-weight: bold;
+	letter-spacing: 8px;
+}
+
+.skill-div-font {
+	font-family: 'BMHANNAAir';
+	font-size: 1.7rem;
+	font-weight: bold;
+}
+
+.port-text-main {
+	font-family: BMDOHYEON;
+	font-size: 1.5rem;
+}
+
+.port-text-sub {
+	font-family: BMHANNAPro;
+	font-size: 1.3rem;
+}
+
+.port-text {
+	font-family: BMHANNAAir;
+	font-size: 1.3rem;
+}
+
+/* 간격 설정 */
+.exp-title-icon-empty {
+	display: inline-block;
+	width: 2rem;
+	height: 100%;
+	text-align: center;
+	margin-right: 10px;
+}
+
+.text-line {
+	display: inline-block;
+	width: 93%;
+	height: 100%;
+}
+
+.mg-top-10 {
+	margin-top: 10px;
+}
+
+.empty-div {
+	width: 100%;
+	height: 30px;
+}
+
+.wid100 {
+	width: 100%;
+}
+
+.mast-min-height {
+	width: 100%;
+	height: 10rem;
+}
+
+.content-section {
+	padding-bottom: 3.5rem !important;
+}
+
+/* 반응형 설정 */
+@media ( max-width : 1199px) {
+	.abt-zb-textbox {
+		padding: 60px 40px 60px 60px;
+	}
+	.text-line {
+		width: 94%;
+	}
+	.port-box-img {
+		height: auto;
+	}
+	.port-main-img {
+		width: 100%;
+		height: auto;
+	}
+	.half {
+		padding: 20px 0px;
+	}
+	.content-section {
+		padding-top: 1rem !important;
+		padding-bottom: 2.5rem !important;
+	}
+}
+
+@media ( max-width : 991px) {
+	/* div 관련 */
+	.content-section {
+		padding-top: 1rem !important;
+		padding-bottom: 2rem !important;
+	}
+	.about-navigation {
+		height: 90px;
+		padding: 0px 20px 30px 20px;
+		margin: 10px 0px 50px 0px;
+	}
+	.abt-zb-imgbox {
+		width: 100%;
+		height: 300px;
+		float: none;
+		padding: 0px;
+	}
+	.abt-zb-textbox {
+		width: 100%;
+		height: 300px;
+		padding: 10px 10px 10px 20px;
+	}
+	.abt-zb-textbox>.zbbox1 {
+		height: 50px;
+		text-align: center;
+		margin: 20px 0px 10px 0px;
+	}
+	.abt-zb-textbox>.zbbox2 {
+		height: 55px;
+		text-align: left;
+		padding-left: 100px;
+	}
+	.zb-bx1-font1 {
+		font-size: 2.5rem;
+	}
+	.zb-bx1-font2 {
+		font-size: 2rem;
+	}
+	.zb-bx2-font1 {
+		font-size: 2rem;
+	}
+	.zb-bx2-font2 {
+		font-size: 2rem;
+	}
+	.exp-menu-box {
+		width: 100%;
+		height: auto;
+		padding: 20px 13px 30px 13px;
+		text-align: center;
+	}
+	.exp-text-padd {
+		width: 100%;
+		height: 490px;
+		padding: 30px 40px 10px 40px;
+	}
+	.exp-title-main {
+		width: 100%;
+	}
+	.exp-title-sub {
+		width: 100%;
+	}
+	.exp-title-icon {
+		width: 2rem;
+		height: 2rem;
+		line-height: 1.5rem;
+		margin-right: 10px;
+	}
+	.exp-title-icon-empty {
+		width: 2rem;
+	}
+	.main-font1 {
+		font-size: 2rem;
+	}
+	.sub-font1 {
+		font-size: 1.5rem;
+		vertical-align: middle;
+	}
+	.main-font2 {
+		font-size: 1.6rem;
+	}
+	.exp-text-font {
+		font-size: 1.4rem;
+	}
+	.text-line {
+		width: 92%;
+	}
+	.pro-edu-box {
+		height: 350px;
+		padding: 60px 40px 10px 40px;
+	}
+	.pro-skill-box {
+		width: 100%;
+		height: 250px;
+		padding: 10px 40px 10px 40px;
+	}
+	.pro-title-main {
+		width: 67%;
+		letter-spacing: -1px;
+	}
+	.pro-title-sub {
+		width: 32%;
+		vertical-align: bottom;
+	}
+	.skills-main {
+		padding: 20px 10px;
+	}
+	.skills-sub {
+		display: flex;
+		height: 60px;
+		padding: 10px 10px 0px 10px;
+	}
+	.skills-font {
+		font-size: 1.8rem;
+		letter-spacing: 5px;
+	}
+	.skill-div-font {
+		font-size: 1.5rem;
+	}
+	.skill-etc {
+		font-size: 1rem;
+		letter-spacing: 0px;
+	}
+	.move-height {
+		min-height: 400px;
+	}
+	.int-text-padd {
+		width: 100%;
+		height: 600px;
+		padding: 10px 30px 50px 40px;
+	}
+	.port-box-img {
+		height: auto;
+		padding-bottom: 30px;
+		overflow: hidden;
+	}
+	.port-side {
+		width: 10%;
+		height: 600px;
+	}
+	.port-box-text {
+		height: 300px;
+		flex-direction: column;
+	}
+	.half {
+		width: 100%;
+		padding: 0px;
+	}
+	.navy-left {
+		width: 20%;
+	}
+	.navy-center {
+		width: 58%;
+	}
+	.navy-right {
+		width: 20%;
+	}
+
+	/* 이미지 관련 */
+	.profile-img {
+		display: block;
+		margin: 0 auto;
+		width: auto;
+		height: 100%;
+		border: 5px solid #A4A4A4;
+		border-radius: 80px;
+	}
+	.img {
+		width: auto;
+		height: 100%;
+	}
+	.port-side-img {
+		max-width: 60px;
+		max-height: 60px;
+	}
+	.cont-body {
+		padding: 10px 40px 10px 40px;
+	}
+	.cont-small {
+		width: 450px;
+	}
+	.cont-textarea {
+		width: 450px;
+	}
+	.pdf-icon {
+		width: 1.5rem;
+		height: 1.5rem;
+	}
+
+	/* 간격 관련 */
+	.wid20 {
+		width: 20%;
+	}
+	.wid40 {
+		width: 40%;
+	}
+	.wid60 {
+		width: 59%;
+	}
+	.wid80 {
+		width: 79%;
+	}
+	.wid100 {
+		width: 100%;
+	}
+	.height450 {
+		height: 450px;
+	}
+	.content-section-heading {
+		padding-bottom: 10px;
+	}
+	.half .empty-box {
+		width: 100%;
+		height: 20px;
+	}
+	.sub-spacing {
+		letter-spacing: -2.3px;
+	}
+
+	/* magnific-popup */
+	.mfp-image-holder .mfp-content {
+		max-width: 80% !important;
+	}
+}
+
+@media ( max-width : 767px) {
+	/* div 관련 */
+	.about-navigation {
+		margin: 30px 0px 0px 0px;
+	}
+	.abt-zb-imgbox {
+		height: 250px;
+	}
+	.zbbox2 .img {
+		width: 1.8rem;
+		height: 1.8rem;
+		line-height: 1.8rem;
+	}
+	.abt-zb-textbox>.zbbox1 {
+		margin: 20px 0px 30px 0px;
+	}
+	.abt-zb-textbox>.zbbox2 {
+		padding-left: 50px;
+	}
+	.skill-progress .progress {
+		height: 1.1rem;
+	}
+	.pro-title-main {
+		width: 100%;
+	}
+	.pro-title-sub {
+		width: 100%;
+	}
+	.pro-skill-box {
+		height: 200px;
+	}
+	.skills-main {
+		padding: 10px;
+	}
+	.skill-div {
+		width: 4em;
+		height: 4em;
+		line-height: 3.8em;
+	}
+	.skill-grade {
+		width: 12%;
+		text-align: center;
+		font-size: 0.9rem;
+	}
+	.skill-etc {
+		width: 47%;
+		font-size: 0.9rem;
+	}
+	.exp-text-padd {
+		height: 440px;
+	}
+	.int-text-padd {
+		height: 550px;
+	}
+	.port-body {
+		height: 650px;
+	}
+	.port-side {
+		height: 600px;
+	}
+
+	/* 이미지 관련 */
+	.port-main-img {
+		margin-bottom: 30px;
+	}
+	.port-side-img {
+		max-width: 50px;
+		max-height: 50px;
+	}
+	.cont-small {
+		width: 350px;
+	}
+	.cont-textarea {
+		width: 350px;
+	}
+
+	/* 폰트 관련 */
+	.zb-bx2-font1 {
+		font-size: 1.7rem;
+	}
+	.zb-bx2-font2 {
+		font-size: 1.7rem;
+	}
+	.main-font1 {
+		font-size: 1.7rem;
+	}
+	.main-font2 {
+		font-size: 1.4rem;
+	}
+	.exp-text-font {
+		font-size: 1.3rem;
+		letter-spacing: -1px;
+	}
+	.sub-font1 {
+		font-size: 1.4rem;
+		letter-spacing: -1.6px;
+	}
+	.skill-div-font {
+		font-size: 1.3rem;
+	}
+
+	/* 간격 관련 */
+	.text-line {
+		width: 88%;
+	}
+	.exp-title-icon {
+		width: 1.7rem;
+		height: 1.7rem;
+		line-height: 1.7rem;
+	}
+	.exp-title-icon-empty {
+		width: 1.7rem;
+	}
+	/* magnific-popup */
+	.mfp-image-holder .mfp-content {
+		max-width: 60% !important;
+	}
+}
+
+@media ( max-width : 575px ) {
+	.masthead {
+		height: 700px !important;
+	}
+	.mast-min-height {
+		height: 4rem;
+	}
+	.masthead h1 {
+		font-size: 3rem !important;
+	}
+	.btn-wd {
+		width: 180px !important;
+	}
+	.btn-xl {
+		padding: 0.8rem 0.5rem !important;
+	}
+	.content-section-heading h2 {
+		font-size: 2rem !important;
+		margin-bottom: 0.5rem !important;
+	}
+	.empty-section {
+		padding: 10px 0px !important;
+	}
+	.h2, h2 {
+		font-size: 1.5rem !important;
+	}
+	.about-font-sub {
+		letter-spacing: -1.5px;
+	}
+	.abt-zb-imgbox {
+		height: 150px;
+	}
+	.abt-zb-textbox {
+		height: 200px;
+	}
+	.abt-zb-textbox>.zbbox1 {
+		margin: 10px 0px 10px 0px;
+	}
+	.zb-bx1-font1 {
+		font-size: 2rem;
+	}
+	.zb-bx1-font2 {
+		font-size: 1.5rem;
+	}
+	.abt-zb-textbox>.zbbox2 {
+		padding-left: 10px;
+		height: 40px;
+	}
+	.zbbox2 .img {
+		width: 1.5rem;
+		height: 1.5rem;
+		line-height: 1.5rem;
+	}
+	.zb-bx2-font1 {
+		font-size: 1.5rem;
+	}
+	.zb-bx2-font2 {
+		font-size: 1.5rem;
+	}
+	.navy-center {
+		width: 57%;
+	}
+	.about-navigation {
+		margin: 15px 0px 0px 0px;
+		padding: 0px 20px 40px 20px;
+	}
+	.exp-menu-box {
+		padding: 0px 13px 0px 13px;
+	}
+	.menu-icon {
+		height: 50px;
+		width: 50px;
+	}
+	.exp-title-icon {
+		width: 1.3rem;
+		height: 1.3rem;
+		line-height: 1.3rem;
+		margin-right: 5px;
+	}
+	.main-font1 {
+		font-size: 1.3rem;
+	}
+	.exp-text-padd {
+		height: 300px;
+		padding: 20px 10px 10px 10px;
+	}
+	.wid60 {
+		width: 58%;
+	}
+	.sub-font1 {
+		font-size: 1.1rem;
+		letter-spacing: -1.7px;
+	}
+	.wid80 {
+		width: 78%;
+	}
+	.exp-title-icon-empty {
+		width: 1.3rem;
+		margin-right: 5px;
+	}
+	.main-font2 {
+		font-size: 1.2rem;
+	}
+	.exp-text-font {
+		font-size: 1.1rem;
+		letter-spacing: -1px;
+	}
+	.empty-div {
+		height: 10px;
+	}
+	.mg-top-10 {
+		margin-top: 5px;
+	}
+	.exp-text {
+		margin-top: 0px;
+	}
+	.pro-edu-box {
+		height: 190px;
+		padding: 0px 10px 0px 10px;
+	}
+	.pro-empty {
+		width: 0px;
+		margin-right: 0px;
+	}
+	.main-font2-letter {
+		letter-spacing: -2px;
+	}
+	.pro-skill-box {
+		height: 160px;
+		padding: 10px 10px 0px 10px;
+	}
+	.skills-font {
+		font-size: 1.5rem;
+	}
+	.skills-main {
+		padding: 5px;
+	}
+	.skill-div {
+		width: 3em;
+		height: 3em;
+		line-height: 2.8em;
+	}
+	.skill-div-font {
+		font-size: 1rem;
+	}
+	.skills-sub {
+		display: block;
+		padding: 10px 10px 0px 10px;
+	}
+	.skill-progress {
+		display: inline-block;
+		width: 78%;
+		height: 20px;
+	}
+	.skill-grade {
+		width: 20%;
+		text-align: right;
+		height: 20px;
+	}
+	.skill-etc {
+		width: 100%;
+		height: 20px;
+		text-align: left;
+	}
+	.int-text-padd {
+		height: auto;
+		padding: 0px 10px;
+		min-height: 350px;
+	}
+	.port-body {
+		height: 550px;
+	}
+	.port-side {
+		width: 5%;
+		height: 100%;
+	}
+	.port-side-img {
+		max-width: 30px;
+		max-height: 30px;
+	}
+	.port-center {
+		width: 90%;
+	}
+	.port-box-img {
+		margin-bottom: 10px;
+		padding-bottom: 0px;
+		overflow: unset;
+	}
+	.port-main-img {
+		margin-bottom: 0px;
+	}
+	.port-box-text {
+		height: 100%;
+		padding: 10px 0px 0px 5px;
+	}
+	.port-text-main {
+		font-size: 1.3rem;
+	}
+	.pdf-icon {
+		width: 1.3rem;
+		height: 1.3rem;
+	}
+	.port-text-sub {
+		font-size: 1.1rem;
+		letter-spacing: -1px;
+	}
+	.port-text {
+		font-size: 1.1rem;
+	}
+	.half {
+		height: auto;
+	}
+	.half .empty-box {
+		height: 10px;
+	}
+	.cont-body {
+		padding: 10px 10px 10px 10px;
+	}
+	.cont-small {
+		width: 280px;
+	}
+	.cont-textarea {
+		width: 280px;
+	}
+	footer.footer {
+		padding-top: 2rem !important;
+		padding-bottom: 2rem !important;
+	}
+}

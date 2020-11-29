@@ -11,7 +11,6 @@
 					elementParse: function(item) { item.src = item.el.attr('src'); }
 				}
 			});
-
 			about_reset();
 
 			//emailJS 설정
@@ -271,8 +270,8 @@
 
 		//interest in text
 		function int_in_text() {
-			var develop = "- 최근에 집중하고 있는 것은 JavaScript, Html, CSS로, Java와 함께 능숙하게 사용할 수 있도록 인터넷 강의 등을 통해 공부하고 있습니다. <br>- 앱 개발에 대한 필요성을 느끼고 있어 코틀린도 배워볼까, 고민하고 있습니다. <br>- 결과적으로 웹과 앱 모두 개발할 수 있는 개발자를 목표로 하고 있습니다.";
-			var hobby = "- 예전부터 웹툰, 웹소설 등 비문학/비출판 작품에 관심이 있습니다. <br>- 언젠가 간단한 2D RPG 게임을 만들어 보고 싶습니다. <br>- 건강을 위해 웨이트 트레이닝이나 격투기 같은 것을 다시 해볼까 고민 중입니다.";
+			var develop = "- Java와 함께 JavaScript, Html, CSS를 능숙하게 사용할 수 있도록 인터넷 강의 등을 통해 공부하고 있습니다. <br>- 앱 개발에 대한 필요성을 느껴 어느 타이밍에 공부할 지 고민하고 있습니다. <br>- 최소 한 가지 이상의 베이스 언어를  탄탄히 다지고 싶습니다.";
+			var hobby = "- 웹툰, 웹소설 등 비문학/비출판 작품에 관심이 있습니다. <br>- 간단한 2D RPG 게임을 만들어 보고 싶습니다. <br>- 건강을 위해 웨이트 트레이닝이나 격투기 같은 것을 다시 해볼까 고민 중입니다.";
 
 			document.getElementById('int-develop').innerHTML = develop;
 			document.getElementById('int-hobby').innerHTML = hobby;
@@ -282,27 +281,25 @@
 		function fn_port_move(port) {
 			if(port == 'dengdeng') {
 				document.getElementById('port-main-img').src = 'resources/images/project/apple_dnegdeng.png';
-				$('#port-main-img').attr("onmouseover", "this.src='resources/images/project/apple_dnegdeng_hover.png'");
+				$('#port-main-img').attr("onmouseover", "this.src='resources/images/project/apple_dnegdeng.png'");
 				$('#port-main-img').attr("onmouseout", "this.src='resources/images/project/apple_dnegdeng.png'");
-				document.getElementById('port-main-img').style.cursor = 'pointer';
 				$('#port-side-left').removeAttr("onclick");
 				$('#port-side-right').removeAttr("onclick");
 				$('#port-side-left').attr("onclick", "fn_port_move('ppsite')");
 				$('#port-side-right').attr("onclick", "fn_port_move('ppsite')");
-				document.getElementById('port-half-left').innerHTML = '<font class="port-text-main">댕댕텔링</font><a href="resources/pdf/dengdengtelling.pdf" download><img class="pdf-icon" src="resources/images/baseline_picture_as_pdf_black_18dp.png"></a><br><font class="port-text-sub">펫시터 매칭 사이트 / 웹 애플리케이션</font><br><br><font class="port-text-sub">개발 인원 : </font><font class="port-text">5명</font><br><font class="port-text-sub">개발 기간 : </font><font class="port-text">20.01.13 ~ 20.02.13 (33일)</font><br><font class="port-text-sub">소개 : </font><font class="port-text">사용자가 요청하는 지역, 일정, 조건에 맞는 펫시터를 주선하는 중개 사이트.</font>';
-				document.getElementById('port-half-right').innerHTML = '<div class="empty-box"></div><font class="port-text-sub">개발 환경 : </font><font class="port-text">Spring Tool Suite 3, Window</font><br><font class="port-text-sub">개발 언어 : </font><font class="port-text">Java, JavaScript, CSS, HTML</font><br><font class="port-text-sub">웹 서버 : </font><font class="port-text">Apache Tomcat 9</font><br><font class="port-text-sub">데이터베이스 : </font><font class="port-text">Oracle Database 11g</font>';
+				document.getElementById('port-half-left').innerHTML = '<font class="port-text-main">댕댕텔링</font><a href="resources/pdf/dengdengtelling.pdf" download><img class="pdf-icon" src="resources/images/baseline_picture_as_pdf_black_18dp.png"></a><br><font class="port-text-sub">펫시터 매칭 사이트 / 웹 애플리케이션</font><br><br><font class="port-text-sub">개발 인원 : </font><font class="port-text">5명</font><br><font class="port-text-sub">개발 기간 : </font><font class="port-text">20.01.13 ~ 20.02.13 (33일)</font><br><font class="port-text-sub">소개 : </font><font class="port-text">사용자가 요청하는 지역, 일정, 조건에 맞는 펫시터를 주선하는 중개 사이트.</font><br><font class="port-text-sub">배포 : </font><font class="port-text">X. 발표를 위해 개인 PC로 운영.</font>';
+				document.getElementById('port-half-right').innerHTML = '<div class="empty-box"></div><font class="port-text-sub">개발 환경 : </font><font class="port-text">Spring Tool Suite 3, Window</font><br><font class="port-text-sub">개발 언어 : </font><font class="port-text">Java, JavaScript, CSS, HTML</font><br><font class="port-text-sub">웹 서버 : </font><font class="port-text">Apache Tomcat 9</font><br><font class="port-text-sub">데이터베이스 : </font><font class="port-text">Oracle Database 11g XE</font>';
 
 			} else if(port == 'ppsite') {
-				document.getElementById('port-main-img').src = 'resources/images/project/apple_ppsite.png';
+				document.getElementById('port-main-img').src = 'resources/images/project/apple_ppsite_re.png';
 				$('#port-main-img').removeAttr("onmouseover");
 				$('#port-main-img').removeAttr("onmouseout");
-				document.getElementById('port-main-img').style.cursor = 'default';
 				$('#port-side-left').removeAttr("onclick");
 				$('#port-side-right').removeAttr("onclick");
 				$('#port-side-left').attr("onclick", "fn_port_move('dengdeng')");
 				$('#port-side-right').attr("onclick", "fn_port_move('dengdeng')");
-				document.getElementById('port-half-left').innerHTML = '<font class="port-text-main">좀비캣</font><br><font class="port-text-sub">포트폴리오 사이트 / 웹 사이트</font><br><br><font class="port-text-sub">개발 인원 : </font><font class="port-text">1명</font><br><font class="port-text-sub">개발 기간 : </font><font class="port-text">20.10.27 ~ 지속 업데이트</font><br><font class="port-text-sub">소개 : </font><font class="port-text">포트폴리오 용도의 사이트.</font>';
-				document.getElementById('port-half-right').innerHTML = '<div class="empty-box"></div><font class="port-text-sub">개발 환경 : </font><font class="port-text">Eclipse, Window</font><br><font class="port-text-sub">개발 언어 : </font><font class="port-text">Java, JavaScript, CSS, HTML</font><br><font class="port-text-sub">웹 서버 : </font><font class="port-text">Tomcat 9</font>';
+				document.getElementById('port-half-left').innerHTML = '<font class="port-text-main">좀비캣</font><br><font class="port-text-sub">포트폴리오 사이트 / 반응형 웹 사이트</font><br><br><font class="port-text-sub">개발 인원 : </font><font class="port-text">1명</font><br><font class="port-text-sub">개발 기간 : </font><font class="port-text">20.10.27 ~ 지속 업데이트</font><br><font class="port-text-sub">소개 : </font><font class="port-text">포트폴리오 용도의 개인 웹 사이트.</font><br><font class="port-text-sub">배포 : </font><font class="port-text">O / AWS EC2 사용.</font>';
+				document.getElementById('port-half-right').innerHTML = '<div class="empty-box"></div><font class="port-text-sub">개발 환경 : </font><font class="port-text">Eclipse, Window</font><br><font class="port-text-sub">개발 언어 : </font><font class="port-text">Java, JavaScript, CSS, HTML</font><br><font class="port-text-sub">웹 서버 : </font><font class="port-text">Apache Tomcat 9</font><br><font class="port-text-sub">데이터베이스 : </font><font class="port-text">Oracle Database 11g XE</font>';
 			}
 		}
 		

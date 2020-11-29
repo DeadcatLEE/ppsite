@@ -12,7 +12,7 @@
 			</div>
 			<div class="port-center">
 				<div class="port-box-img">
-					<img id="port-main-img" class="port-main-img" src="resources/images/project/apple_dnegdeng.png" onmouseover="this.src='resources/images/project/apple_dnegdeng_hover.png'" onmouseout="this.src='resources/images/project/apple_dnegdeng.png'" alt="">
+					<img id="port-main-img" class="port-main-img" src="resources/images/project/apple_dnegdeng.png" onmouseover="this.src='resources/images/project/apple_dnegdeng.png'" onmouseout="this.src='resources/images/project/apple_dnegdeng.png'" alt="">
 				</div>
 				<div class="port-box-text">
 					<div id="port-half-left" class="half">
@@ -20,14 +20,15 @@
 						<font class="port-text-sub">펫시터 매칭 사이트 / 웹 애플리케이션</font><br><br>
 						<font class="port-text-sub">개발 인원: </font><font class="port-text">5명</font><br>
 						<font class="port-text-sub">개발 기간 : </font><font class="port-text">20.01.13 ~ 20.02.13 (33일)</font><br>
-						<font class="port-text-sub sub-spacing">소개 : </font><font class="port-text">사용자가 요청하는 지역, 일정, 조건에 맞는 펫시터를 주선하는 중개 사이트.</font>
+						<font class="port-text-sub sub-spacing">소개 : </font><font class="port-text">사용자가 요청하는 지역, 일정, 조건에 맞는 펫시터를 주선하는 중개 사이트.</font><br>
+						<font class="port-text-sub">배포 : </font><font class="port-text">X. 발표를 위해 개인 PC로 운영.</font>
 					</div>
 					<div id="port-half-right" class="half">
 						<div class="empty-box"></div>
 						<font class="port-text-sub">개발 환경 : </font><font class="port-text">Spring Tool Suite 3, Window</font><br>
 						<font class="port-text-sub">개발 언어: </font><font class="port-text">Java, JavaScript, CSS, HTML</font><br>
 						<font class="port-text-sub">웹 서버 : </font><font class="port-text">Apache Tomcat 9</font><br>
-						<font class="port-text-sub">데이터베이스 : </font><font class="port-text">Oracle Database 11g</font> 
+						<font class="port-text-sub">데이터베이스 : </font><font class="port-text">Oracle Database 11g XE</font> 
 					</div>
 				</div>
 			</div>

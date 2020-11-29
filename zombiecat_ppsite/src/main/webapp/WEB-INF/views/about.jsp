@@ -11,7 +11,7 @@
 				<div class="caption">
 					<div class="caption-content">
 						<div class="h2 about-font-main">ZombieCat</div>
-						<p class="mb-0 about-font-sub">안녕하세요! ZombieCat입니다.</p><!-- Privacy 개인 정보 -->
+						<p class="mb-0 about-font-sub">안녕하세요! ZombieCat입니다.</p>
 					</div>
 				</div> 
 				<img class="img-fluid" src="resources/images/background/spring_2.png" alt="">
@@ -22,7 +22,7 @@
 				<div class="caption">
 					<div class="caption-content">
 						<div class="h2 about-font-main">Experience</div>
-						<p class="mb-0 about-font-sub">이렇게 지냈습니다.</p><!-- Experience 경험/이력 -->
+						<p class="mb-0 about-font-sub">이렇게 지냈습니다.</p>
 					</div>
 				</div> 
 				<img class="img-fluid" src="resources/images/background/fall_2.png" alt="">
@@ -33,7 +33,7 @@
 				<div class="caption">
 					<div class="caption-content">
 						<div class="h2 about-font-main">Programming</div>
-						<p class="mb-0 about-font-sub">프로그래밍에 대한 기반입니다.</p><!-- Education 교육 / Skills 기술 -->
+						<p class="mb-0 about-font-sub">프로그래밍에 대한 기반입니다.</p>
 					</div>
 				</div> 
 				<img class="img-fluid" src="resources/images/background/summer_1.png" alt="">
@@ -44,7 +44,7 @@
 				<div class="caption">
 					<div class="caption-content">
 						<div class="h2 about-font-main">Interest</div>
-						<p class="mb-0 about-font-sub">이런 것에 관심을 가지고 있습니다.</p><!-- Interrests 흥미 요소 -->
+						<p class="mb-0 about-font-sub">이런 것에 관심을 가지고 있습니다.</p>
 					</div>
 				</div> 
 				<img class="img-fluid" src="resources/images/background/winter_1.png" alt="">
@@ -176,7 +176,7 @@
 				<div class="exp-text">
 					<div class="exp-title-icon-empty"></div>
 					<div class="text-line">
-						<font class="exp-text-font">Java 개발자(인턴) / Java Web Application 개발 및 운영. 자사 솔루션 기능 추가 및 수정, 자사 홈페이지 수정 등.</font>
+						<font class="exp-text-font">Java 개발자(인턴) / Java Web Application 개발 및 유지 보수. 자사 솔루션 기능 추가 및 수정, 자사 홈페이지 수정 등.</font>
 					</div>
 				</div>
 			</div>
@@ -197,6 +197,21 @@
 				<div class="exp-title-main mg-top-10 wid60">
 					<div class="exp-title-icon-empty"></div>
 					<font class="main-font2">책** 출판사</font>
+					<div class="gallery-link">
+						<a href="#about_pop">[보기]</a>
+					</div>
+					<div id="bkt_img" class="exp-gallery">
+						<img class="img-link" src="resources/images/books/japan.jpg">
+						<img class="img-link" src="resources/images/books/golf.jpg">
+						<img class="img-link" src="resources/images/books/moon.jpg">
+						<img class="img-link" src="resources/images/books/zero.jpg">
+						<img class="img-link" src="resources/images/books/cat.jpg">
+						<img class="img-link" src="resources/images/books/story.jpg">
+						<img class="img-link" src="resources/images/books/wind.jpg">
+						<img class="img-link" src="resources/images/books/tree.jpg">
+						<img class="img-link" src="resources/images/books/hungry.jpg">
+						<img class="img-link" src="resources/images/books/eat.jpg">
+					</div>
 				</div>
 				<div class="exp-title-sub wid40" align="right">
 					<font class="sub-font1">2019.03 - 2019.07</font>
@@ -204,29 +219,24 @@
 				<div class="exp-text">
 					<div class="exp-title-icon-empty"></div>
 					<div class="text-line">
-						<font class="exp-text-font">편집자(사원) / 출판 기획, 원고 작성, 저자 관리, 교정, 교열 등.</font>
-						<div class="gallery-link">
-							<a href="#about_pop">[목록 보기]</a>
-						</div>
-						<div id="bkt_img" class="exp-gallery">
-							<img class="img-link" src="resources/images/books/japan.jpg">
-							<img class="img-link" src="resources/images/books/golf.jpg">
-							<img class="img-link" src="resources/images/books/moon.jpg">
-							<img class="img-link" src="resources/images/books/zero.jpg">
-							<img class="img-link" src="resources/images/books/cat.jpg">
-							<img class="img-link" src="resources/images/books/story.jpg">
-							<img class="img-link" src="resources/images/books/wind.jpg">
-							<img class="img-link" src="resources/images/books/tree.jpg">
-							<img class="img-link" src="resources/images/books/hungry.jpg">
-							<img class="img-link" src="resources/images/books/eat.jpg">
-						</div>
+						<font class="exp-text-font">편집자(사원) / 출판 기획, 원고 작성, 저자 관리, 교정, 교열, 기타 사무 등.</font>
 					</div>
 				</div>
 				
 				<!-- 출판 편집 2 -->
 				<div class="exp-title-main mg-top-10 wid60">
 					<div class="exp-title-icon-empty"></div>
-					<font class="main-font2">DOO**CMC</font>
+					<font class="main-font2" style="letter-spacing: -1px;">DOO**CMC</font>
+					<div class="gallery-link">
+						<a href="#about_pop">[보기]</a>
+					</div>
+					<div id="dbcmc_img" class="exp-gallery">
+						<img class="img-link" src="resources/images/books/deon1.jpg">
+						<img class="img-link" src="resources/images/books/deon2.jpg">
+						<img class="img-link" src="resources/images/books/mabi.jpg">
+						<img class="img-link" src="resources/images/books/elso.jpg">
+						<img class="img-link" src="resources/images/books/hin.jpg">
+					</div>
 				</div>
 				<div class="exp-title-sub wid40" align="right">
 					<font class="sub-font1">2011.04 - 2012.05</font>
@@ -234,17 +244,7 @@
 				<div class="exp-text">
 				<div class="exp-title-icon-empty"></div>
 					<div class="text-line">
-						<font class="exp-text-font">편집자(사원) / 출판 기획, 원고 작성, 저자 관리, 교정, 교열 등.</font>
-						<div class="gallery-link">
-							<a href="#about_pop">[목록 보기]</a>
-						</div>
-						<div id="dbcmc_img" class="exp-gallery">
-							<img class="img-link" src="resources/images/books/deon1.jpg">
-							<img class="img-link" src="resources/images/books/deon2.jpg">
-							<img class="img-link" src="resources/images/books/mabi.jpg">
-							<img class="img-link" src="resources/images/books/elso.jpg">
-							<img class="img-link" src="resources/images/books/hin.jpg">
-						</div>
+						<font class="exp-text-font">편집자(사원) / 출판 기획, 원고 작성, 저자 관리, 교정, 교열, 인쇄 감리 등.</font>
 					</div>
 				</div>
 			</div>

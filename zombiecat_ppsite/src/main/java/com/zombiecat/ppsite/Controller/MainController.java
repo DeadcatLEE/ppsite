@@ -26,8 +26,9 @@ public class MainController {
 	
 	@RequestMapping(value = "/", method = {RequestMethod.GET, RequestMethod.POST})
 	public ModelAndView home(Locale locale, CommandMap commandMap) throws Exception {
-		ModelAndView mv = new ModelAndView("home");
 		
+		ModelAndView mv = new ModelAndView("home");
+		/*
 		try {
 			List<Map<String, String>> mainMapper = mainService.selectList(commandMap.getMap());
 			
@@ -42,6 +43,7 @@ public class MainController {
 			System.out.println("Main Map Value Empty!");
 			e.printStackTrace();
 		}
+		*/
 		return mv;
 	}
 	

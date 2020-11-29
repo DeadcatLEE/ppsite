@@ -45,11 +45,11 @@
 				<i class="icon-mustache"></i>
 			</span>
 			<h4>
-				<strong>Be not 꼰대</strong>
+				<strong>눈치도 백단!</strong>
 			</h4>
-			<p class="text-faded mb-0">위치를 알고 알맞게 행동합니다.</p>
+			<p class="text-faded mb-0">분위기에 맞게 행동합니다.</p>
 			<p class="text-faded mb-0">+</p>
-			<p class="text-faded mb-0">언제나 배우는 입장에서, 말할 때는 조심스럽게.</p>
+			<p class="text-faded mb-0">말과 행동은 언제나 조심스럽게 하려고 노력합니다.</p>
 		</div>
 	</div>
 </div>
